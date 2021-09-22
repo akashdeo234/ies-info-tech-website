@@ -433,6 +433,69 @@ footer .container .social-group a img:hover {
 }
 
 /*footer ends*/
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+/* calibre fonts ends */
 /*Contact us starts*/
 .contact-us-sec {
   overflow: hidden;
