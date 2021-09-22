@@ -1,4 +1,36 @@
-@import "../font.css/font";
+/* calibre fonts starts */
+
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+
 /*Colors*/
 
 $primary-one: #fff;
