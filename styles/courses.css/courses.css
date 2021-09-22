@@ -1,0 +1,682 @@
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/*Header starts*/
+.header {
+  width: 100%;
+  height: 142px;
+  background-color: #fff;
+}
+
+.header .container {
+  width: 1200px;
+  height: inherit;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .logo img {
+  width: 100px;
+  height: 57.38px;
+}
+
+.header .container .nav_group {
+  margin-left: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .nav_group a li {
+  color: black;
+  opacity: 1;
+  margin: 0 39px;
+  font-size: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.header .container .nav_group a li.active {
+  color: #ed1b43;
+  opacity: 1;
+}
+
+.header .container .nav_group a li:hover {
+  color: #ed1b43;
+}
+
+.header .container a.btn {
+  font-size: 17px;
+  text-align: center;
+  background-color: #41436a;
+  color: #fff;
+  padding: 14px 35px 12px;
+  border-radius: 10px;
+  outline: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.header .container a.btn.active {
+  background-color: #ed1b43;
+}
+
+.header .container a.btn:hover {
+  background-color: #ed1b43;
+}
+
+/*Header ends*/
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/*footer starts*/
+footer {
+  width: 100%;
+  height: 300px;
+}
+
+footer .container {
+  width: 1200px;
+  height: inherit;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .logo img {
+  width: 100px;
+  height: 57.38px;
+}
+
+footer .container .nav_group {
+  margin-left: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 90px;
+}
+
+footer .container .nav_group a li {
+  color: black;
+  opacity: 1;
+  margin: 0 39px;
+  font-size: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer .container .nav_group a li.active {
+  color: #ed1b43;
+  opacity: 1;
+}
+
+footer .container .nav_group a li:hover {
+  color: #ed1b43;
+}
+
+footer .container a.btn {
+  font-size: 17px;
+  text-align: center;
+  background-color: #41436a;
+  color: #fff;
+  padding: 14px 35px 12px;
+  border-radius: 10px;
+  outline: none;
+}
+
+footer .container .social-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 20px;
+  cursor: pointer;
+}
+
+footer .container .social-group a img {
+  width: 40px;
+  height: 40px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer .container .social-group a img:hover {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+}
+
+/*footer ends*/
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Course sec starts*/
+.course-sec {
+  width: 100%;
+  height: 550vh;
+  overflow: hidden;
+  background-color: #41436a;
+}
+
+.course-sec .container {
+  width: 1367px;
+  margin: 0% auto;
+}
+
+.course-sec .container .title {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 55px;
+  position: relative;
+  margin-bottom: 137px;
+  padding-bottom: 32px;
+  color: #fff;
+}
+
+.course-sec .container .title::after {
+  content: "";
+  background: #fe9677;
+  width: 120px;
+  height: 4px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+}
+
+.course-sec .container .search-bar {
+  width: 600px;
+  margin: 0% auto;
+  margin-bottom: 150px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fe9677;
+}
+
+.course-sec .container .search-bar .flex-wrapper {
+  width: 500px;
+  height: 50%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.course-sec .container .search-bar .flex-wrapper input {
+  font-size: 15px;
+  width: inherit;
+  height: inherit;
+  border: none;
+  outline: none;
+  padding: 5px 50px;
+  font-weight: bolder;
+}
+
+.course-sec .container .search-bar .search-btn {
+  margin-left: 25px;
+  border: none;
+  outline: none;
+  background-color: #fe9677;
+}
+
+.course-sec .container .search-bar .search-btn img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.course-sec .container .card-wrapper {
+  width: 1200px;
+  height: 1225px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 55px;
+  position: relative;
+}
+
+.course-sec .container .card-wrapper .card .bottom .title.big {
+  font-size: 27px;
+}
+
+.course-sec .container .card-wrapper .card {
+  width: 530px;
+  height: 547px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 26px;
+}
+
+.course-sec .container .card-wrapper .card .stars {
+  width: 108.75px;
+  height: 18px;
+}
+
+.course-sec .container .card-wrapper .card .arrow {
+  width: 13px;
+  height: 13px;
+}
+
+.course-sec .container .card-wrapper .card .top {
+  width: 530px;
+  height: 281px;
+}
+
+.course-sec .container .card-wrapper .card .top img {
+  width: inherit;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 26px;
+}
+
+.course-sec .container .card-wrapper .card .bottom {
+  width: 500px;
+  margin: 0% auto;
+  height: 286px;
+}
+
+.course-sec .container .card-wrapper .card .bottom .title {
+  position: relative;
+  color: black;
+  text-align: start;
+  max-width: 300px;
+  font-size: 20px;
+  height: 60px;
+}
+
+.course-sec .container .card-wrapper .card .bottom .title::after {
+  content: "";
+  background: black;
+  width: 160%;
+  height: 4px;
+  position: absolute;
+  left: 80%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -10%;
+}
+
+.course-sec .container .card-wrapper .card .bottom .bt-group {
+  width: 95%;
+  margin: 0% auto;
+  -webkit-transform: translateY(-80px);
+          transform: translateY(-80px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.course-sec .container .card-wrapper .card .bottom .btn {
+  background-color: #ed1b43;
+  color: #fff;
+  padding: 12px 26.88px;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+}
+
+.course-sec .container .card-wrapper .card .bottom .btn span {
+  margin: 0 10px;
+}
+
+.course-sec .container .card-wrapper .card.card-center {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+/*Course sec ends*/
+/*# sourceMappingURL=courses.css.map */

@@ -1,0 +1,637 @@
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/*Header starts*/
+.header {
+  width: 100%;
+  height: 142px;
+  background-color: #fff;
+}
+
+.header .container {
+  width: 1200px;
+  height: inherit;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .logo img {
+  width: 100px;
+  height: 57.38px;
+}
+
+.header .container .nav_group {
+  margin-left: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .nav_group a li {
+  color: black;
+  opacity: 1;
+  margin: 0 39px;
+  font-size: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.header .container .nav_group a li.active {
+  color: #ed1b43;
+  opacity: 1;
+}
+
+.header .container .nav_group a li:hover {
+  color: #ed1b43;
+}
+
+.header .container a.btn {
+  font-size: 17px;
+  text-align: center;
+  background-color: #41436a;
+  color: #fff;
+  padding: 14px 35px 12px;
+  border-radius: 10px;
+  outline: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.header .container a.btn.active {
+  background-color: #ed1b43;
+}
+
+.header .container a.btn:hover {
+  background-color: #ed1b43;
+}
+
+/*Header ends*/
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/*footer starts*/
+footer {
+  width: 100%;
+  height: 300px;
+}
+
+footer .container {
+  width: 1200px;
+  height: inherit;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .logo img {
+  width: 100px;
+  height: 57.38px;
+}
+
+footer .container .nav_group {
+  margin-left: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 90px;
+}
+
+footer .container .nav_group a li {
+  color: black;
+  opacity: 1;
+  margin: 0 39px;
+  font-size: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer .container .nav_group a li.active {
+  color: #ed1b43;
+  opacity: 1;
+}
+
+footer .container .nav_group a li:hover {
+  color: #ed1b43;
+}
+
+footer .container a.btn {
+  font-size: 17px;
+  text-align: center;
+  background-color: #41436a;
+  color: #fff;
+  padding: 14px 35px 12px;
+  border-radius: 10px;
+  outline: none;
+}
+
+footer .container .social-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 20px;
+  cursor: pointer;
+}
+
+footer .container .social-group a img {
+  width: 40px;
+  height: 40px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer .container .social-group a img:hover {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+}
+
+/*footer ends*/
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+.about-us-page {
+  width: 100%;
+  height: 600vh;
+  background-color: #41436a;
+  overflow: hidden;
+}
+
+/*Our story starts*/
+.out-story-sec {
+  width: 100%;
+  height: auto;
+  margin-bottom: 153px;
+}
+
+.out-story-sec .container {
+  width: 1194px;
+  margin: 0% auto;
+}
+
+.out-story-sec .container .flex-wrapper {
+  margin-top: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.out-story-sec .container .flex-wrapper .left {
+  max-width: 621px;
+}
+
+.out-story-sec .container .flex-wrapper .left h1 {
+  color: #fe9677;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.out-story-sec .container .flex-wrapper .left h2 {
+  font-size: 53px;
+  color: #fff;
+  line-height: 62px;
+  margin-bottom: 24px;
+}
+
+.out-story-sec .container .flex-wrapper .left p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.out-story-sec .container .flex-wrapper .left .btn {
+  background-color: #ed1b43;
+  color: #fff;
+  padding: 15px 45px;
+  border-radius: 7px;
+}
+
+.out-story-sec .container .flex-wrapper .right img {
+  border-radius: 19px;
+  width: 516px;
+  height: 335px;
+}
+
+.out-story-sec .container .bottom-sec {
+  margin-top: 157px;
+}
+
+.out-story-sec .container .bottom-sec img {
+  border-radius: 26px;
+}
+
+/*Our story ends*/
+/*Meet our ceo starts*/
+.meet-our-ceo-sec {
+  width: 100%;
+  height: auto;
+}
+
+.meet-our-ceo-sec .container {
+  width: 1194px;
+  margin: 0% auto;
+}
+
+.meet-our-ceo-sec .container .title {
+  color: #fe9677;
+  text-align: center;
+  font-size: 55px;
+  position: relative;
+  margin-bottom: 140px;
+  padding-bottom: 32px;
+}
+
+.meet-our-ceo-sec .container .title::after {
+  content: "";
+  background: #fff;
+  width: 108px;
+  height: 4px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .left {
+  width: 50%;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .left img {
+  background-image: #41436a;
+  width: 400px;
+  height: 400px;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .right {
+  margin-top: 50px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .right p {
+  max-width: 750px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 32px;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .right a {
+  margin-bottom: 32px;
+  color: #fe9677;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .right .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 30px;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .right .social img {
+  width: 38px;
+  height: 38px;
+}
+
+/*Meet our ceo ends*/
+/*# sourceMappingURL=about.css.map */

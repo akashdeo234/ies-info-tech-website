@@ -1,0 +1,196 @@
+@import "../scssfiles/variables/variables";
+@import "../scssfiles/Header/header";
+@import "../scssfiles/footer/footer";
+
+/* calibre fonts starts */
+
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact us starts*/
+.contact-us-sec {
+  overflow: hidden;
+  width: 100%;
+  height: 120vh;
+  background-color: $primay-two;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+  input {
+    border: none;
+    outline: none;
+    color: $primay-two;
+  }
+  .container {
+    width: 1194px;
+    margin: 0% auto;
+    .flew-wrapper {
+      margin-top: 125px;
+      width: inherit;
+      height: inherit;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      .left,
+      .right {
+        width: 50%;
+      }
+      .left {
+        h2 {
+          font-size: 35px;
+          color: $primary-one;
+          margin-bottom: 29px;
+        }
+        p {
+          font-size: 18px;
+          max-width: 550px;
+          color: $primary-one;
+          margin-bottom: 50px;
+        }
+        form {
+          .first {
+            display: flex;
+            gap: 38px;
+            margin-bottom: 55px;
+            input {
+              width: 269px;
+              padding-left: 20px;
+              height: 52px;
+            }
+          }
+          .second {
+            margin-bottom: 55px;
+            input {
+              padding-left: 17px;
+              width: 575px;
+              height: 52px;
+            }
+          }
+          .third {
+            margin-bottom: 45px;
+            input {
+              text-align: start;
+              width: 575px;
+              height: 250px;
+
+              padding: 10px 0 230px 17px;
+            }
+          }
+          .btn {
+            cursor: pointer;
+            border: none;
+            outline: none;
+            font-weight: bold;
+            width: 208px;
+            height: 52px;
+            padding: 20px 40px;
+            color: $primary-one;
+            background-color: $complent-color;
+            border-radius: 65px;
+          }
+        }
+      }
+      .right {
+          .card{display: flex;flex-direction: column;
+        justify-content: flex-start;}
+        .card.one {
+            position: absolute;
+            top: 40px;
+            left: 780px;
+          width: 450px;
+          height: 450px;
+          background-color: $primary-one;
+          .container {
+            padding: 88px 61px;
+            .first,
+            .second,
+            .third {
+              display: flex;
+              gap: 25px;
+              margin-bottom: 55px;
+              color: $primay-two;
+              h4 {
+                font-size: 19px;
+              }
+              p {
+                font-size: 16px;
+                max-width: 180px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+        .card.two{
+            width: 450px;
+            height: 100px;
+            background-color: $primary-one;
+            position: absolute;
+            top: 512px;
+            left: 780px;
+            .container{
+                padding: 33px 80px;
+                .social-group{
+                    display: flex;
+                    gap: 30px;
+                    img{
+                        width: 35px;
+                        height: 35px;
+                        transition: 0.3s ease-in-out;
+                    }
+                    img:hover {
+                      transform: translateY(-12px);
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+}
+
+/*Contact us ends*/

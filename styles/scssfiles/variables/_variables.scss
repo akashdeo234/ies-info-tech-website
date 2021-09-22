@@ -1,0 +1,51 @@
+@import "../font.css/font";
+/*Colors*/
+
+$primary-one: #fff;
+$primay-two: #41436a;
+$secondary-one: #fe9677;
+$secondary-two: #984063;
+$complent-color: #ed1b43;
+$a-tag-color : black;
+
+/*Resets*/
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+section{
+  overflow-x: hidden;
+}
+li{
+  list-style: none;
+}
+h1{
+  font-family: calibreBlack;
+}
+a{
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+h2{
+  font-family: calibreBold;
+}
+h3{
+  font-family: calibreSemiBold;
+}
+h4{
+  font-family: calibreMedium;
+}
+p{
+  font-family: calibreLight;
+}
+img{
+  height: auto;
+  width: 100%;
+}

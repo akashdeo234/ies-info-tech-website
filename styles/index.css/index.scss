@@ -1,0 +1,517 @@
+@import "../scssfiles/variables/variables";
+@import "../scssfiles/Header/header";
+@import "../scssfiles/footer/footer";
+/* calibre fonts starts */
+
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/* gtAlpina fonts  */
+@font-face {
+  font-family: gtAlpinaBold;
+  src: url(/fonts/gtAlpina_font/GTAlpinaBold.ttf);
+}
+
+/*hero starts*/
+.hero_sec {
+  width: 100%;
+  height: 85vh;
+  background-color: $primay-two;
+
+  .container {
+    width: 1200px;
+    height: inherit;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+
+    .left_sec {
+      margin-top: 104px;
+      h1 {
+        color: $primary-one;
+        max-width: 575px;
+        max-height: 363px;
+        font-size: 93px;
+        line-height: 105px;
+        font-family: gtAlpinaBold;
+      }
+      .btn {
+        margin-top: 28px;
+        width: 255px;
+        background-color: $secondary-one;
+        color: $primary-one;
+        padding: 15px 40px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        img {
+          margin-bottom: 3px;
+          height: 19px;
+          width: 19px;
+        }
+      }
+    }
+    .right_sec {
+      margin-top: 94px;
+      position: absolute;
+      left: 860px;
+
+      img {
+        width: 744px;
+        height: 540px;
+      }
+    }
+  }
+}
+/*hero ends*/
+
+/*Our teacher sec starts*/
+.our-teacher-sec {
+  width: 100%;
+  height: 556px;
+  background-color: $secondary-one;
+
+  .container {
+    width: 1200px;
+    height: inherit;
+    margin: 0% auto;
+
+    .card-wrapper {
+      padding-top: 134px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-row: 1fr;
+      grid-gap: 0 51px;
+
+      .card {
+        border-radius: 25px;
+        text-align: center;
+        height: 288px;
+        width: 262px;
+        left: 746px;
+        top: 134px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+          width: 65px;
+          height: 95px;
+        }
+      }
+      .card.white {
+        background-color: $primary-one;
+
+        h1 {
+          color: $primay-two;
+        }
+        h3 {
+          color: $secondary-two;
+        }
+      }
+      .card.blue {
+        background-color: $primay-two;
+
+        h1 {
+          color: $primary-one;
+        }
+        h3 {
+          color: $secondary-one;
+        }
+      }
+    }
+  }
+}
+/*Our teacher sec ends*/
+
+/*Why choose sec starts*/
+.why-choose-sec {
+  width: 100%;
+  height: 1150px;
+  background-color: $primary-one;
+  overflow: hidden;
+
+  .container {
+    height: inherit;
+    width: 1367px;
+    margin: 104px auto 0;
+
+    .title {
+      text-align: center;
+      font-size: 55px;
+      position: relative;
+      margin-bottom: 137px;
+      padding-bottom: 32px;
+    }
+    .title::after {
+      content: "";
+      background: $secondary-one;
+      width: 180px;
+      height: 4px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+
+    img {
+      width: 105px;
+      height: 105px;
+      margin-left: 45px;
+    }
+    .card-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      gap: 53px;
+
+      .card {
+        display: flex;
+        align-items: center;
+        width: 800px;
+        height: 200px;
+        border-radius: 23px;
+        background-color: $secondary-one;
+
+        .left {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          flex: 1;
+        }
+        .right {
+          display: flex;
+          flex-direction: column;
+          flex: 3;
+
+          h4 {
+            max-width: 437px;
+            font-size: 20px;
+          }
+          a {
+            color: $primary-one;
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            transform: translateY(45px);
+            font-weight: 100;
+
+            span {
+              font-size: 20px;
+            }
+            img {
+              width: 22px;
+              height: 22px;
+              transform: translateX(-33px);
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+      .card:nth-child(2) {
+        margin-left: auto;
+      }
+    }
+  }
+}
+/*Why choose sec ends*/
+
+/*Our affliation sec starts*/
+.our-affliations-sec {
+  width: 100%;
+  height: 590px;
+  overflow: hidden;
+  background-color: $secondary-one;
+
+  .container {
+    height: inherit;
+    width: 1367px;
+    margin: 104px auto 0;
+    position: relative;
+
+    .title {
+      text-align: center;
+      font-size: 55px;
+      position: relative;
+      margin-bottom: 100px;
+      padding-bottom: 32px;
+    }
+    .title::after {
+      content: "";
+      background: $primary-one;
+      width: 180px;
+      height: 4px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    img {
+      width: 1200px;
+      height: 197px;
+      border-radius: 26px;
+      transform: translateX(-50%);
+      position: absolute;
+      left: 50%;
+      opacity: 0.9;
+    }
+  }
+}
+/*Our affliation sec ends*/
+/*top-students-choice-sec starts*/
+.top-students-choice-sec {
+  width: 100%;
+  height: 200vh;
+  background-color: $secondary-two;
+  overflow: hidden;
+
+  .container {
+    height: inherit;
+    width: 1367px;
+    margin: 0 auto;
+    padding-top: 104px;
+
+    .title {
+      color: $primary-one;
+      text-align: center;
+      font-size: 45px;
+      position: relative;
+      margin-bottom: 100px;
+      padding-bottom: 32px;
+    }
+    .title::after {
+      content: "";
+      background: $primary-one;
+      width: 180px;
+      height: 4px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    .card-wrapper {
+      width: 1200px;
+      height: 1225px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-gap: 0 100px 90px 0;
+      position: relative;
+
+      .card {
+        width: 530px;
+        height: 547px;
+        background-color: $primary-one;
+        display: flex;
+        flex-direction: column;
+        border-radius: 26px;
+
+        .stars {
+          width: 108.75px;
+          height: 18px;
+        }
+        .arrow {
+          width: 13px;
+          height: 13px;
+        }
+
+        .top {
+          width: 530px;
+          height: 281px;
+
+          img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+            border-radius: 26px;
+          }
+        }
+        .bottom {
+          width: 500px;
+          margin: 0% auto;
+          height: 286px;
+          padding-top: 45px;
+          .title {
+            position: relative;
+            color: $a-tag-color;
+            text-align: start;
+            max-width: 300px;
+            font-size: 20px;
+            height: 60px;
+          }
+          .title::after {
+            content: "";
+            background: $a-tag-color;
+            width: 160%;
+            height: 4px;
+            position: absolute;
+            left: 80%;
+            transform: translateX(-50%);
+            bottom: -10%;
+          }
+          .bt-group {
+            width: 95%;
+            margin: 0% auto;
+            transform: translateY(-30px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+          .btn {
+            background-color: $complent-color;
+            color: $primary-one;
+            padding: 12px 26.88px;
+            font-size: 13px;
+            display: flex;
+            border-radius: 8px;
+
+            span {
+              margin: 0 10px;
+            }
+          }
+        }
+      }
+      .card.card-center {
+        position: absolute;
+        top: 50%;
+        left: 49%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+/*top-students-choice-sec ends*/
+/*Testmonial sec starts*/
+.testmonial-sec {
+  width: 100%;
+  height: 220vh;
+  background-color: $primay-two;
+  overflow: hidden;
+
+  .container {
+    height: inherit;
+    width: 1367px;
+    margin: 0 auto;
+    padding-top: 104px;
+
+    .title {
+      color: $primary-one;
+      text-align: center;
+      font-size: 55px;
+      position: relative;
+      margin-bottom: 100px;
+      padding-bottom: 32px;
+    }
+    .title::after {
+      content: "";
+      background: $secondary-one;
+      width: 85px;
+      height: 4px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    .card-wrapper {
+      padding-top: 100px;
+      height: inherit;
+      display: flex;
+      flex-direction: column;
+      gap: 150px 0;
+      position: relative;
+
+      .card {
+        width: 567px;
+        height: 290px;
+        background-color: $primary-one;
+        padding-bottom: 50px;
+        position: relative;
+
+        .text-container {
+          width: 475px;
+          margin: 0% auto;
+          .student-img {
+            width: 152px;
+            height: 152px;
+            position: absolute;
+            top: -27%;
+          }
+          .text-wrapper {
+            text-align: start;
+            width: inherit;
+            margin: 0% auto;
+            position: absolute;
+            bottom: 10%;
+            p {
+              font-size: 18px;
+              margin-bottom: 15px;
+            }
+            .text-bottom {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: inherit;
+              img {
+                width: 69px;
+                height: 27px;
+              }
+              .name-wrapper {
+                text-align: start;
+                h4 {
+                  font-size: 26px;
+                }
+                p {
+                  font-size: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .card.two {
+        position: absolute;
+        top: 32%;
+        right: 40%;
+      }
+      .card.three {
+        position: absolute;
+        top: 58%;
+        left: 50%;
+      }
+    }
+  }
+}
+/*Testmonial sec ends*/
+

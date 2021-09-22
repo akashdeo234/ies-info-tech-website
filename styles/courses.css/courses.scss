@@ -1,0 +1,204 @@
+@import "../scssfiles/variables/variables";
+@import "../scssfiles/Header/header";
+@import "../scssfiles/footer/footer";
+
+/* calibre fonts starts */
+
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+
+
+/*Course sec starts*/
+.course-sec {
+  width: 100%;
+  height: 550vh;
+  overflow: hidden;
+  background-color: $primay-two;
+  .container {
+    width: 1367px;
+    margin: 0% auto;
+    .title {
+      margin-top: 70px;
+      text-align: center;
+      font-size: 55px;
+      position: relative;
+      margin-bottom: 137px;
+      padding-bottom: 32px;
+      color: $primary-one;
+    }
+    .title::after {
+      content: "";
+      background: $secondary-one;
+      width: 120px;
+      height: 4px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    .search-bar {
+      width: 600px;
+      margin: 0% auto;
+      margin-bottom: 150px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $secondary-one;
+      .flex-wrapper {
+        width: 500px;
+        height: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        input {
+          font-size: 15px;
+          width: inherit;
+          height: inherit;
+          border: none;
+          outline: none;
+          padding: 5px 50px;
+          font-weight: bolder;
+        }
+      }
+      .search-btn {
+        margin-left: 25px;
+        border: none;
+        outline: none;
+        background-color: $secondary-one;
+        img {
+          cursor: pointer;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    //card wrapper
+    .card-wrapper {
+      width: 1200px;
+      height: 1225px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 55px;
+      position: relative;
+      .card{
+        .bottom {
+          .title.big{
+            font-size: 27px;
+          }
+      }
+    }
+      .card {
+        width: 530px;
+        height: 547px;
+        background-color: $primary-one;
+        display: flex;
+        flex-direction: column;
+        border-radius: 26px;
+
+        .stars {
+          width: 108.75px;
+          height: 18px;
+        }
+        .arrow {
+          width: 13px;
+          height: 13px;
+        }
+
+        .top {
+          width: 530px;
+          height: 281px;
+
+          img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+            border-radius: 26px;
+          }
+        }
+        .bottom {
+          width: 500px;
+          margin: 0% auto;
+          height: 286px;
+          
+          .title {
+            position: relative;
+            color: $a-tag-color;
+            text-align: start;
+            max-width: 300px;
+            font-size: 20px;
+            height: 60px;
+          }
+          .title::after {
+            content: "";
+            background: $a-tag-color;
+            width: 160%;
+            height: 4px;
+            position: absolute;
+            left: 80%;
+            transform: translateX(-50%);
+            bottom: -10%;
+          }
+          .bt-group {
+            width: 95%;
+            margin: 0% auto;
+            transform: translateY(-80px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+          .btn {
+            background-color: $complent-color;
+            color: $primary-one;
+            padding: 12px 26.88px;
+            font-size: 13px;
+            display: flex;
+            border-radius: 8px;
+
+            span {
+              margin: 0 10px;
+            }
+          }
+        }
+      }
+      .card.card-center {
+        position: absolute;
+        top: 50%;
+        left: 49%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+
+/*Course sec ends*/

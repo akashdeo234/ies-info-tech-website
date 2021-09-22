@@ -1,0 +1,660 @@
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/*Header starts*/
+.header {
+  width: 100%;
+  height: 142px;
+  background-color: #fff;
+}
+
+.header .container {
+  width: 1200px;
+  height: inherit;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .logo img {
+  width: 100px;
+  height: 57.38px;
+}
+
+.header .container .nav_group {
+  margin-left: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .nav_group a li {
+  color: black;
+  opacity: 1;
+  margin: 0 39px;
+  font-size: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.header .container .nav_group a li.active {
+  color: #ed1b43;
+  opacity: 1;
+}
+
+.header .container .nav_group a li:hover {
+  color: #ed1b43;
+}
+
+.header .container a.btn {
+  font-size: 17px;
+  text-align: center;
+  background-color: #41436a;
+  color: #fff;
+  padding: 14px 35px 12px;
+  border-radius: 10px;
+  outline: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.header .container a.btn.active {
+  background-color: #ed1b43;
+}
+
+.header .container a.btn:hover {
+  background-color: #ed1b43;
+}
+
+/*Header ends*/
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/*footer starts*/
+footer {
+  width: 100%;
+  height: 300px;
+}
+
+footer .container {
+  width: 1200px;
+  height: inherit;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .logo img {
+  width: 100px;
+  height: 57.38px;
+}
+
+footer .container .nav_group {
+  margin-left: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 90px;
+}
+
+footer .container .nav_group a li {
+  color: black;
+  opacity: 1;
+  margin: 0 39px;
+  font-size: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer .container .nav_group a li.active {
+  color: #ed1b43;
+  opacity: 1;
+}
+
+footer .container .nav_group a li:hover {
+  color: #ed1b43;
+}
+
+footer .container a.btn {
+  font-size: 17px;
+  text-align: center;
+  background-color: #41436a;
+  color: #fff;
+  padding: 14px 35px 12px;
+  border-radius: 10px;
+  outline: none;
+}
+
+footer .container .social-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 20px;
+  cursor: pointer;
+}
+
+footer .container .social-group a img {
+  width: 40px;
+  height: 40px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer .container .social-group a img:hover {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+}
+
+/*footer ends*/
+/* calibre fonts starts */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+/*Contact us starts*/
+.contact-us-sec {
+  overflow: hidden;
+  width: 100%;
+  height: 120vh;
+  background-color: #41436a;
+}
+
+.contact-us-sec img {
+  width: 25px;
+  height: 25px;
+}
+
+.contact-us-sec input {
+  border: none;
+  outline: none;
+  color: #41436a;
+}
+
+.contact-us-sec .container {
+  width: 1194px;
+  margin: 0% auto;
+}
+
+.contact-us-sec .container .flew-wrapper {
+  margin-top: 125px;
+  width: inherit;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.contact-us-sec .container .flew-wrapper .left,
+.contact-us-sec .container .flew-wrapper .right {
+  width: 50%;
+}
+
+.contact-us-sec .container .flew-wrapper .left h2 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 29px;
+}
+
+.contact-us-sec .container .flew-wrapper .left p {
+  font-size: 18px;
+  max-width: 550px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.contact-us-sec .container .flew-wrapper .left form .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 38px;
+  margin-bottom: 55px;
+}
+
+.contact-us-sec .container .flew-wrapper .left form .first input {
+  width: 269px;
+  padding-left: 20px;
+  height: 52px;
+}
+
+.contact-us-sec .container .flew-wrapper .left form .second {
+  margin-bottom: 55px;
+}
+
+.contact-us-sec .container .flew-wrapper .left form .second input {
+  padding-left: 17px;
+  width: 575px;
+  height: 52px;
+}
+
+.contact-us-sec .container .flew-wrapper .left form .third {
+  margin-bottom: 45px;
+}
+
+.contact-us-sec .container .flew-wrapper .left form .third input {
+  text-align: start;
+  width: 575px;
+  height: 250px;
+  padding: 10px 0 230px 17px;
+}
+
+.contact-us-sec .container .flew-wrapper .left form .btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  width: 208px;
+  height: 52px;
+  padding: 20px 40px;
+  color: #fff;
+  background-color: #ed1b43;
+  border-radius: 65px;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.one {
+  position: absolute;
+  top: 40px;
+  left: 780px;
+  width: 450px;
+  height: 450px;
+  background-color: #fff;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.one .container {
+  padding: 88px 61px;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.one .container .first,
+.contact-us-sec .container .flew-wrapper .right .card.one .container .second,
+.contact-us-sec .container .flew-wrapper .right .card.one .container .third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 55px;
+  color: #41436a;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.one .container .first h4,
+.contact-us-sec .container .flew-wrapper .right .card.one .container .second h4,
+.contact-us-sec .container .flew-wrapper .right .card.one .container .third h4 {
+  font-size: 19px;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.one .container .first p,
+.contact-us-sec .container .flew-wrapper .right .card.one .container .second p,
+.contact-us-sec .container .flew-wrapper .right .card.one .container .third p {
+  font-size: 16px;
+  max-width: 180px;
+  line-height: 24px;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.two {
+  width: 450px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  top: 512px;
+  left: 780px;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.two .container {
+  padding: 33px 80px;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.two .container .social-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.two .container .social-group img {
+  width: 35px;
+  height: 35px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-us-sec .container .flew-wrapper .right .card.two .container .social-group img:hover {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+}
+
+/*Contact us ends*/
+/*# sourceMappingURL=contact.css.map */

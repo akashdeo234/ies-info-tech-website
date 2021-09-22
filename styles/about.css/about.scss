@@ -1,0 +1,178 @@
+@import "../scssfiles/variables/variables";
+@import "../scssfiles/Header/header";
+@import "../scssfiles/footer/footer";
+
+/* calibre fonts starts */
+
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* calibre fonts ends */
+
+
+
+
+
+
+
+
+
+
+.about-us-page {
+  width: 100%;
+  height: 600vh;
+  background-color: $primay-two;
+  overflow: hidden;
+}
+
+/*Our story starts*/
+
+.out-story-sec {
+  width: 100%;
+  height: auto;
+  margin-bottom: 153px;
+
+  .container {
+    width: 1194px;
+    margin: 0% auto;
+    .flex-wrapper {
+      margin-top: 125px;
+      display: flex;
+      justify-content: space-between;
+      .left {
+        max-width: 621px;
+        h1 {
+          color: $secondary-one;
+          font-size: 25px;
+          margin-bottom: 35px;
+        }
+        h2 {
+          font-size: 53px;
+          color: #fff;
+          line-height: 62px;
+          margin-bottom: 24px;
+        }
+        p {
+          color: $primary-one;
+          font-size: 17px;
+          line-height: 30px;
+          margin-bottom: 30px;
+        }
+        .btn {
+          background-color: $complent-color;
+          color: #fff;
+          padding: 15px 45px;
+          border-radius: 7px;
+        }
+      }
+      .right {
+        img {
+          border-radius: 19px;
+          width: 516px;
+          height: 335px;
+        }
+      }
+    }
+    .bottom-sec {
+      margin-top: 157px;
+      img {
+        border-radius: 26px;
+      }
+    }
+  }
+}
+
+/*Our story ends*/
+
+/*Meet our ceo starts*/
+.meet-our-ceo-sec {
+  width: 100%;
+  height: auto;
+
+  .container {
+    width: 1194px;
+    margin: 0% auto;
+    .title {
+      color: $secondary-one;
+      text-align: center;
+      font-size: 55px;
+      position: relative;
+      margin-bottom: 140px;
+      padding-bottom: 32px;
+    }
+    .title::after {
+      content: "";
+      background: $primary-one;
+      width: 108px;
+      height: 4px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    .flex-wrapper {
+      display: flex;
+      justify-content: space-between;
+      .left {
+        width: 50%;
+        img {
+          background-image: $primay-two;
+          width: 400px;
+          height: 400px;
+        }
+      }
+      .right {
+        margin-top: 50px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        p {
+          max-width: 750px;
+          color: $primary-one;
+          font-size: 22px;
+          line-height: 35px;
+          margin-bottom: 32px;
+        }
+        a {
+          margin-bottom: 32px;
+          color: $secondary-one;
+        }
+        .social {
+          display: flex;
+          gap: 0 30px;
+          img {
+            width: 38px;
+            height: 38px;
+          }
+        }
+      }
+    }
+  }
+}
+/*Meet our ceo ends*/
