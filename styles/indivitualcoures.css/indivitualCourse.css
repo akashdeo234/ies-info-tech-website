@@ -360,6 +360,10 @@ span,
   max-width: 600px;
 }
 
+.indivitual-courses .container .top-sec .right-sec .text-wrapper h2.long-text {
+  font-size: 52px;
+}
+
 .indivitual-courses .container .top-sec .right-sec .text-wrapper span {
   font-weight: 800;
   font-size: 18px;
