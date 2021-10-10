@@ -33,44 +33,28 @@
   src: url(/fonts/calibre_font/CalibreThin.otf);
 }
 
-h1{
+h1 {
   font-family: calibreBlack;
 }
-a{
+a {
   text-decoration: none;
   font-family: calibreBold;
   cursor: pointer;
 }
-h2{
+h2 {
   font-family: calibreBold;
 }
-h3{
+h3 {
   font-family: calibreSemiBold;
 }
-h4{
+h4 {
   font-family: calibreMedium;
 }
-p{
+p {
   font-family: calibreLight;
 }
 
 /* calibre fonts ends */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Contact us starts*/
 .contact-us-sec {
@@ -157,12 +141,15 @@ p{
         }
       }
       .right {
-          .card{display: flex;flex-direction: column;
-        justify-content: flex-start;}
+        .card {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+        }
         .card.one {
-            position: absolute;
-            top: 40px;
-            left: 780px;
+          position: absolute;
+          top: 40px;
+          left: 780px;
           width: 450px;
           height: 450px;
           background-color: $primary-one;
@@ -186,28 +173,28 @@ p{
             }
           }
         }
-        .card.two{
-            width: 450px;
-            height: 100px;
-            background-color: $primary-one;
-            position: absolute;
-            top: 512px;
-            left: 780px;
-            .container{
-                padding: 33px 80px;
-                .social-group{
-                    display: flex;
-                    gap: 30px;
-                    img{
-                        width: 35px;
-                        height: 35px;
-                        transition: 0.3s ease-in-out;
-                    }
-                    img:hover {
-                      transform: translateY(-12px);
-                    }
-                }
+        .card.two {
+          width: 450px;
+          height: 100px;
+          background-color: $primary-one;
+          position: absolute;
+          top: 512px;
+          left: 780px;
+          .container {
+            padding: 33px 80px;
+            .social-group {
+              display: flex;
+              gap: 30px;
+              img {
+                width: 35px;
+                height: 35px;
+                transition: 0.3s ease-in-out;
+              }
+              img:hover {
+                transform: translateY(-12px);
+              }
             }
+          }
         }
       }
     }
@@ -215,3 +202,11 @@ p{
 }
 
 /*Contact us ends*/
+
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .contact-us-sec {
+    height: 92vh;
+    padding: 40px 0;
+  }
+}

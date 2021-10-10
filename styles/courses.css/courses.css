@@ -256,6 +256,18 @@ img {
 }
 
 /*Header ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .header .container .nav_group a li {
+    font-size: 26px;
+  }
+  .header .container a.btn {
+    font-size: 20px;
+    padding: 14px 35px 9px;
+  }
+}
+
+/*Desktop View Media Queries Ends*/
 /* calibre fonts starts */
 @font-face {
   font-family: calibreBlack;
@@ -433,6 +445,25 @@ footer .container .social-group a img:hover {
 }
 
 /*footer ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  footer .container .logo img {
+    width: 159px;
+    height: 95.38px;
+  }
+  footer .container .nav_group a li {
+    font-size: 26px;
+  }
+  footer .container .social-group {
+    margin-right: -47px;
+  }
+  footer .container .social-group a img {
+    width: 46px;
+    height: 50px;
+  }
+}
+
+/*Desktop View Media Queries Ends*/
 /* calibre fonts starts */
 @font-face {
   font-family: calibreBlack;
@@ -514,8 +545,7 @@ p {
   text-align: center;
   font-size: 55px;
   position: relative;
-  margin-bottom: 137px;
-  padding-bottom: 32px;
+  margin-bottom: 40px;
   color: #fff;
 }
 
@@ -531,56 +561,25 @@ p {
   bottom: 0;
 }
 
-.course-sec .container .search-bar {
-  width: 600px;
-  margin: 0% auto;
+.course-sec .container h2 {
+  margin-top: 70px;
   margin-bottom: 150px;
-  height: 70px;
+  font-size: 29px;
+  color: white;
+  max-width: 765px;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #fe9677;
-}
-
-.course-sec .container .search-bar .flex-wrapper {
-  width: 500px;
-  height: 50%;
-  background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.course-sec .container .search-bar .flex-wrapper input {
-  font-size: 15px;
-  width: inherit;
-  height: inherit;
-  border: none;
-  outline: none;
-  padding: 5px 50px;
-  font-weight: bolder;
-}
-
-.course-sec .container .search-bar .search-btn {
-  margin-left: 25px;
-  border: none;
-  outline: none;
-  background-color: #fe9677;
-}
-
-.course-sec .container .search-bar .search-btn img {
-  cursor: pointer;
-  width: 20px;
-  height: 20px;
+  line-height: 37px;
+  -webkit-transform: translateX(38%);
+          transform: translateX(38%);
 }
 
 .course-sec .container .card-wrapper {
@@ -668,8 +667,8 @@ p {
 .course-sec .container .card-wrapper .card .bottom .bt-group {
   width: 95%;
   margin: 0% auto;
-  -webkit-transform: translateY(-80px);
-          transform: translateY(-80px);
+  -webkit-transform: translateY(18px);
+          transform: translateY(18px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -705,4 +704,20 @@ p {
 }
 
 /*Course sec ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .course-sec {
+    height: 397vh;
+    padding: 40px 0;
+  }
+  .course-sec .container h2 {
+    font-size: 33px;
+    max-width: 968px;
+    -webkit-transform: translateX(170px);
+            transform: translateX(170px);
+    line-height: 40px;
+  }
+}
+
+/*Desktop View Media Queries Ends*/
 /*# sourceMappingURL=courses.css.map */

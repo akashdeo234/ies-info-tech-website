@@ -62,6 +62,9 @@ p{
   src: url(/Root/fonts/gtAlpina_font/GTAlpinaBold.ttf);
 }
 
+/*Laptop View Media Queries Starts*/
+
+
 /*hero starts*/
 .hero_sec {
   width: 100%;
@@ -84,6 +87,12 @@ p{
         font-size: 93px;
         line-height: 105px;
         font-family: gtAlpinaBold;
+      }
+      h2{
+        max-width: 580px;
+        margin: 33px 0;
+        color: white;
+        font-weight: 500;
       }
       .btn {
         margin-top: 28px;
@@ -538,3 +547,92 @@ p{
 }
 /*Testmonial sec ends*/
 
+/*Laptop View Media Queries Ends*/
+
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width : 1600px) {
+ body , html{
+   overflow-x: hidden;
+ }
+  .hero_sec{
+    height: 60vh;
+    padding-bottom: 40px;
+   .container{
+     .left_sec{
+       h2{
+        max-width: 530px;
+        margin: 33px 0;
+        color: white;
+       }
+     }
+     .right_sec{
+      margin-top: 62px;
+       img{
+        width: 1154px;
+        height: 560px;
+       }
+     }
+   }
+  }
+  .our-teacher-sec{
+    padding: 40px 0;
+    overflow: hidden;
+    .container{
+      .card-wrapper{
+        padding-top: 100px;
+
+      }
+    }
+  }
+  .why-choose-sec{
+    height: 115vh;
+    padding: 40px 0;
+    .container{
+      .card-wrapper{
+        .card{
+          .right{
+            h4{
+              max-width: 516px;
+              font-size: 25px;
+            }
+            a{
+              transform: translateY(29px);
+            }
+          }
+        }
+      }
+    }
+  }
+  .our-affliations-sec{
+    padding: 40px 0;
+    .container{
+      margin: 47px auto 0;
+    }
+  }
+  .top-students-choice-sec{
+    height: 147vh;
+    padding: 40px 0;
+  }
+  .testmonial-sec{
+    height: 160vh;
+    padding: 40px 0;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Desktop View Media Queries Ends*/

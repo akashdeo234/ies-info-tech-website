@@ -57,3 +57,24 @@
   }
   
 /*Header ends*/
+
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .header{
+      .container{
+        .nav_group{
+          a{
+            li{
+              font-size: 26px;
+            }
+          }
+        }
+        a.btn{
+          font-size: 20px;
+          padding: 14px 35px 9px;
+        }
+      }
+  }
+}
+
+/*Desktop View Media Queries Ends*/

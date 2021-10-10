@@ -33,30 +33,28 @@
   src: url(/fonts/calibre_font/CalibreThin.otf);
 }
 
-h1{
+h1 {
   font-family: calibreBlack;
 }
-a{
+a {
   text-decoration: none;
   font-family: calibreBold;
   cursor: pointer;
 }
-h2{
+h2 {
   font-family: calibreBold;
 }
-h3{
+h3 {
   font-family: calibreSemiBold;
 }
-h4{
+h4 {
   font-family: calibreMedium;
 }
-p{
+p {
   font-family: calibreLight;
 }
 
 /* calibre fonts ends */
-
-
 
 /*Course sec starts*/
 .course-sec {
@@ -72,8 +70,7 @@ p{
       text-align: center;
       font-size: 55px;
       position: relative;
-      margin-bottom: 137px;
-      padding-bottom: 32px;
+      margin-bottom: 40px;
       color: $primary-one;
     }
     .title::after {
@@ -86,43 +83,20 @@ p{
       transform: translateX(-50%);
       bottom: 0;
     }
-    .search-bar {
-      width: 600px;
-      margin: 0% auto;
+    h2 {
+      margin-top: 70px;
       margin-bottom: 150px;
-      height: 70px;
+      font-size: 29px;
+      color: white;
+      max-width: 765px;
+      text-align: center;
       display: flex;
-      justify-content: center;
       align-items: center;
-      background-color: $secondary-one;
-      .flex-wrapper {
-        width: 500px;
-        height: 50%;
-        background-color: #fff;
-        display: flex;
-        align-items: center;
-        input {
-          font-size: 15px;
-          width: inherit;
-          height: inherit;
-          border: none;
-          outline: none;
-          padding: 5px 50px;
-          font-weight: bolder;
-        }
-      }
-      .search-btn {
-        margin-left: 25px;
-        border: none;
-        outline: none;
-        background-color: $secondary-one;
-        img {
-          cursor: pointer;
-          width: 20px;
-          height: 20px;
-        }
-      }
+      justify-content: center;
+      line-height: 37px;
+      transform: translateX(38%);
     }
+
     //card wrapper
     .card-wrapper {
       width: 1200px;
@@ -133,13 +107,13 @@ p{
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-gap: 55px;
       position: relative;
-      .card{
+      .card {
         .bottom {
-          .title.big{
+          .title.big {
             font-size: 27px;
           }
+        }
       }
-    }
       .card {
         width: 530px;
         height: 547px;
@@ -172,7 +146,7 @@ p{
           width: 500px;
           margin: 0% auto;
           height: 286px;
-          
+
           .title {
             position: relative;
             color: $a-tag-color;
@@ -194,7 +168,7 @@ p{
           .bt-group {
             width: 95%;
             margin: 0% auto;
-            transform: translateY(-80px);
+            transform: translateY(18px);
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -224,3 +198,21 @@ p{
 }
 
 /*Course sec ends*/
+
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .course-sec {
+    height: 397vh;
+    padding: 40px 0;
+    .container {
+      h2 {
+        font-size: 33px;
+        max-width: 968px;
+        transform: translateX(170px);
+        line-height: 40px;
+      }
+    }
+  }
+}
+
+/*Desktop View Media Queries Ends*/

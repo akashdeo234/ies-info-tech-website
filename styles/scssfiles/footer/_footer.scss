@@ -1,67 +1,99 @@
 @import "../variables/variables";
 /*footer starts*/
 footer {
-    width: 100%;
-    height: 300px;
-  
-    .container {
-      width: 1200px;
-      height: inherit;
-      margin: 0% auto;
+  width: 100%;
+  height: 300px;
+
+  .container {
+    width: 1200px;
+    height: inherit;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo img {
+      width: 100px;
+      height: 57.38px;
+    }
+    .nav_group {
+      margin-left: 19px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-  
-      .logo img {
-        width: 100px;
-        height: 57.38px;
+      margin-left: 90px;
+
+      a li {
+        color: $a-tag-color;
+        opacity: 1;
+        margin: 0 39px;
+        font-size: 20px;
+        transition: 0.3s ease;
       }
-      .nav_group {
-        margin-left: 19px;
-        display: flex;
-        align-items: center;
-        margin-left: 90px;
-       
-  
-        a li {
-          color: $a-tag-color;
-          opacity: 1;
-          margin: 0 39px;
-          font-size: 20px;
+      a li.active {
+        color: $complent-color;
+        opacity: 1;
+      }
+      a li:hover {
+        color: $complent-color;
+      }
+    }
+    a.btn {
+      font-size: 17px;
+      text-align: center;
+      background-color: $primay-two;
+      color: $primary-one;
+      padding: 14px 35px 12px;
+      border-radius: 10px;
+      outline: none;
+    }
+    .social-group {
+      display: flex;
+      gap: 0 20px;
+      cursor: pointer;
+      a {
+        img {
+          width: 40px;
+          height: 40px;
           transition: 0.3s ease;
         }
-        a li.active {
-          color: $complent-color;
-          opacity: 1;
-        }
-        a li:hover{
-          color: $complent-color;
+        img:hover {
+          transform: translateY(-12px);
         }
       }
-      a.btn {
-        font-size: 17px;
-        text-align: center;
-        background-color: $primay-two;
-        color: $primary-one;
-        padding: 14px 35px 12px;
-        border-radius: 10px;
-        outline: none;
+    }
+  }
+}
+/*footer ends*/
+
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  footer {
+    .container {
+      .logo {
+        img {
+          width: 159px;
+          height: 95.38px;
+        }
+      }
+      .nav_group {
+        a {
+          li {
+            font-size: 26px;
+          }
+        }
       }
       .social-group {
-        display: flex;
-        gap: 0 20px;
-        cursor: pointer;
+        margin-right: -47px;
+
         a {
           img {
-            width: 40px;
-            height: 40px;
-            transition: 0.3s ease;
-          }
-          img:hover {
-            transform: translateY(-12px);
+            width: 46px;
+            height: 50px;
           }
         }
       }
     }
   }
-  /*footer ends*/
+}
+
+/*Desktop View Media Queries Ends*/

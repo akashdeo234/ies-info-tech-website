@@ -256,6 +256,18 @@ img {
 }
 
 /*Header ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .header .container .nav_group a li {
+    font-size: 26px;
+  }
+  .header .container a.btn {
+    font-size: 20px;
+    padding: 14px 35px 9px;
+  }
+}
+
+/*Desktop View Media Queries Ends*/
 /* calibre fonts starts */
 @font-face {
   font-family: calibreBlack;
@@ -433,6 +445,25 @@ footer .container .social-group a img:hover {
 }
 
 /*footer ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  footer .container .logo img {
+    width: 159px;
+    height: 95.38px;
+  }
+  footer .container .nav_group a li {
+    font-size: 26px;
+  }
+  footer .container .social-group {
+    margin-right: -47px;
+  }
+  footer .container .social-group a img {
+    width: 46px;
+    height: 50px;
+  }
+}
+
+/*Desktop View Media Queries Ends*/
 /* calibre fonts starts */
 @font-face {
   font-family: calibreBlack;
@@ -502,6 +533,7 @@ p {
   src: url(/Root/fonts/gtAlpina_font/GTAlpinaBold.ttf);
 }
 
+/*Laptop View Media Queries Starts*/
 /*hero starts*/
 .hero_sec {
   width: 100%;
@@ -532,6 +564,13 @@ p {
   font-size: 93px;
   line-height: 105px;
   font-family: gtAlpinaBold;
+}
+
+.hero_sec .container .left_sec h2 {
+  max-width: 580px;
+  margin: 33px 0;
+  color: white;
+  font-weight: 500;
 }
 
 .hero_sec .container .left_sec .btn {
@@ -1105,4 +1144,62 @@ p {
 }
 
 /*Testmonial sec ends*/
+/*Laptop View Media Queries Ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  body, html {
+    overflow-x: hidden;
+  }
+  .hero_sec {
+    height: 60vh;
+    padding-bottom: 40px;
+  }
+  .hero_sec .container .left_sec h2 {
+    max-width: 530px;
+    margin: 33px 0;
+    color: white;
+  }
+  .hero_sec .container .right_sec {
+    margin-top: 62px;
+  }
+  .hero_sec .container .right_sec img {
+    width: 1154px;
+    height: 560px;
+  }
+  .our-teacher-sec {
+    padding: 40px 0;
+    overflow: hidden;
+  }
+  .our-teacher-sec .container .card-wrapper {
+    padding-top: 100px;
+  }
+  .why-choose-sec {
+    height: 115vh;
+    padding: 40px 0;
+  }
+  .why-choose-sec .container .card-wrapper .card .right h4 {
+    max-width: 516px;
+    font-size: 25px;
+  }
+  .why-choose-sec .container .card-wrapper .card .right a {
+    -webkit-transform: translateY(29px);
+            transform: translateY(29px);
+  }
+  .our-affliations-sec {
+    padding: 40px 0;
+  }
+  .our-affliations-sec .container {
+    margin: 47px auto 0;
+  }
+  .top-students-choice-sec {
+    height: 147vh;
+    padding: 40px 0;
+  }
+  .testmonial-sec {
+    height: 160vh;
+    padding: 40px 0;
+  }
+}
+
+/*Desktop View Media Queries Ends*/
 /*# sourceMappingURL=index.css.map */

@@ -256,6 +256,18 @@ img {
 }
 
 /*Header ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .header .container .nav_group a li {
+    font-size: 26px;
+  }
+  .header .container a.btn {
+    font-size: 20px;
+    padding: 14px 35px 9px;
+  }
+}
+
+/*Desktop View Media Queries Ends*/
 /* calibre fonts starts */
 @font-face {
   font-family: calibreBlack;
@@ -433,6 +445,25 @@ footer .container .social-group a img:hover {
 }
 
 /*footer ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  footer .container .logo img {
+    width: 159px;
+    height: 95.38px;
+  }
+  footer .container .nav_group a li {
+    font-size: 26px;
+  }
+  footer .container .social-group {
+    margin-right: -47px;
+  }
+  footer .container .social-group a img {
+    width: 46px;
+    height: 50px;
+  }
+}
+
+/*Desktop View Media Queries Ends*/
 /* calibre fonts starts */
 @font-face {
   font-family: calibreBlack;
@@ -683,4 +714,11 @@ p {
 }
 
 /*Contact us ends*/
+/*Desktop View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .contact-us-sec {
+    height: 92vh;
+    padding: 40px 0;
+  }
+}
 /*# sourceMappingURL=contact.css.map */
