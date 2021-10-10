@@ -1,79 +1,128 @@
 @import "../variables/variables";
 /*Header starts*/
 .header {
-    width: 100%;
-    height: 142px;
-    background-color: $primary-one;
-  
-    .container {
-      width: 1200px;
-      height: inherit;
-      margin: 0% auto;
+  width: 100%;
+  height: 142px;
+  background-color: $primary-one;
+
+  .container {
+    width: 1200px;
+    height: inherit;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo img {
+      width: 100px;
+      height: 57.38px;
+    }
+    .handburger {
+      display: none;
+    }
+    .nav_group {
+      margin-left: 19px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-  
-      .logo img {
-        width: 100px;
-        height: 57.38px;
+
+      a li {
+        color: $a-tag-color;
+        opacity: 1;
+        margin: 0 39px;
+        font-size: 20px;
+        transition: 0.3s ease;
+      }
+      a li.active {
+        color: $complent-color;
+        opacity: 1;
+      }
+      a li:hover {
+        color: $complent-color;
+      }
+    }
+    a.btn {
+      font-size: 17px;
+      text-align: center;
+      background-color: $primay-two;
+      color: $primary-one;
+      padding: 14px 35px 12px;
+      border-radius: 10px;
+      outline: none;
+      transition: 0.3s ease-in-out;
+    }
+    a.btn.active {
+      background-color: $complent-color;
+    }
+    a.btn:hover {
+      background-color: $complent-color;
+    }
+  }
+}
+
+/*Header ends*/
+
+/*mobile view media queries starts*/
+@media only screen and (max-width: 600px) {
+  .header {
+    position: relative;
+    .container {
+      width: 345px;
+      .logo {
+        z-index: 80;
+        img {
+          width: 60px;
+          height: 40px;
+        }
       }
       .nav_group {
-        margin-left: 19px;
-        display: flex;
+        flex-direction: column;
+        width: 105%;
+        position: absolute;
+        z-index: 1;
+        background-color: white; 
+        margin-left: 374px;    
+        height: 100vh;
         align-items: center;
-  
-        a li {
-          color: $a-tag-color;
-          opacity: 1;
-          margin: 0 39px;
-          font-size: 20px;
-          transition: 0.3s ease;
-        }
-        a li.active {
-          color: $complent-color;
-          opacity: 1;
-        }
-        a li:hover{
-          color: $complent-color;
-        }
+        justify-content: space-around;
+        padding: 120px 0;
+        transition: 0.3s ease;
+        transform: translateY(350px);
       }
-      a.btn {
-        font-size: 17px;
-        text-align: center;
-        background-color: $primay-two;
-        color: $primary-one;
-        padding: 14px 35px 12px;
-        border-radius: 10px;
-        outline: none;
-        transition: 0.3s ease-in-out;
+      .nav_group.open{
+        margin-left: -15px;
       }
-      a.btn.active{
-        background-color: $complent-color;
+      .btn{
+        display: none;
       }
-      a.btn:hover{
-        background-color: $complent-color;
+      .handburger{
+        display: inline-block;
+        z-index: 80;
+        width: 25px;
+        height: 25px;
       }
     }
   }
-  
-/*Header ends*/
+}
+
+/*mobile view media queries ends */
 
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
-  .header{
-      .container{
-        .nav_group{
-          a{
-            li{
-              font-size: 26px;
-            }
+  .header {
+    .container {
+      .nav_group {
+        a {
+          li {
+            font-size: 26px;
           }
         }
-        a.btn{
-          font-size: 20px;
-          padding: 14px 35px 9px;
-        }
       }
+      a.btn {
+        font-size: 20px;
+        padding: 14px 35px 9px;
+      }
+           
+    }
   }
 }
 
