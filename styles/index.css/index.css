@@ -501,6 +501,25 @@ footer .container .social-group a img:hover {
 }
 
 /*footer ends*/
+/*mobile view media queries starts*/
+@media (max-width: 400px) {
+  footer {
+    width: 100%;
+    height: 300px;
+  }
+  footer .container {
+    height: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*mobile view media queries ends*/
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
   footer .container .logo img {
@@ -1201,9 +1220,223 @@ p {
 
 /*Testmonial sec ends*/
 /*Laptop View Media Queries Ends*/
+/*mobile view media queries starts*/
+@media (max-width: 400px) {
+  .hero_sec {
+    height: auto;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+  }
+  .hero_sec .container {
+    width: 95%;
+  }
+  .hero_sec .container .left_sec h1 {
+    font-size: 57px;
+    max-width: 341px;
+    line-height: 1;
+  }
+  .hero_sec .container .left_sec h2 {
+    font-size: 17px;
+    max-width: 299px;
+    line-height: 1.4;
+  }
+  .hero_sec .container .left_sec .btn {
+    width: 161px;
+    padding: 17px 16px;
+    font-size: 15px;
+  }
+  .hero_sec .container .right_sec {
+    display: none;
+  }
+  .our-teacher-sec {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .our-teacher-sec .container {
+    width: 95%;
+  }
+  .our-teacher-sec .container .card-wrapper {
+    -ms-grid-columns: 0%;
+        grid-template-columns: 0%;
+    -webkit-transform: translateX(11%);
+            transform: translateX(11%);
+    grid-gap: 35px;
+  }
+  .why-choose-sec {
+    height: auto;
+    padding-bottom: 120px;
+  }
+  .why-choose-sec .container {
+    width: 95%;
+  }
+  .why-choose-sec .container img {
+    margin: 0%;
+  }
+  .why-choose-sec .container .title {
+    font-size: 33px;
+  }
+  .why-choose-sec .container .title::after {
+    width: 95px;
+  }
+  .why-choose-sec .container .card-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .why-choose-sec .container .card-wrapper .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    padding: 22px 40px;
+  }
+  .why-choose-sec .container .card-wrapper .card .right {
+    width: 300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .why-choose-sec .container .card-wrapper .card .right a {
+    -webkit-transform: translateX(-78px);
+            transform: translateX(-78px);
+    margin-top: 33px;
+  }
+  .why-choose-sec .container .card-wrapper .card .right a img {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  .our-affliations-sec {
+    padding-bottom: 80px;
+    height: 56vh;
+  }
+  .our-affliations-sec .container {
+    width: 95%;
+  }
+  .our-affliations-sec .container .title {
+    font-size: 33px;
+  }
+  .our-affliations-sec .container .title::after {
+    width: 95px;
+  }
+  .our-affliations-sec .container img {
+    width: 367px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: auto;
+    border-radius: 10px;
+  }
+  .top-students-choice-sec {
+    width: 100%;
+    height: auto;
+    padding-bottom: 320px;
+  }
+  .top-students-choice-sec .container {
+    width: 95%;
+  }
+  .top-students-choice-sec .container .title {
+    font-size: 33px;
+  }
+  .top-students-choice-sec .container .title::after {
+    width: 95px;
+  }
+  .top-students-choice-sec .container .card-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px 0;
+  }
+  .top-students-choice-sec .container .card-wrapper .card {
+    width: 351px;
+    height: 475px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card .top {
+    width: 351px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card .bottom {
+    padding-top: 32px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card .bottom .title {
+    max-width: 250px;
+    font-size: 16px;
+    margin-left: 12px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card .bottom .title::after {
+    width: 140.5%;
+    -webkit-transform: translateX(-60.6%);
+            transform: translateX(-60.6%);
+  }
+  .top-students-choice-sec .container .card-wrapper .card .bottom .bt-group {
+    width: 65%;
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
+    margin-left: 14px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card.card-center {
+    position: static;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    left: 0%;
+    top: 82%;
+  }
+  .testmonial-sec {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .testmonial-sec .container {
+    width: 95%;
+  }
+  .testmonial-sec .container .title {
+    font-size: 33px;
+  }
+  .testmonial-sec .container .title::after {
+    width: 95px;
+  }
+  .testmonial-sec .container .card-wrapper {
+    padding-top: 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: static;
+    gap: 100px 0;
+  }
+  .testmonial-sec .container .card-wrapper .card {
+    width: 353px;
+    height: 250px;
+  }
+  .testmonial-sec .container .card-wrapper .card .text-container .text-wrapper {
+    position: static;
+    width: 337px;
+    margin-left: 10px;
+    margin-top: 32px;
+  }
+  .testmonial-sec .container .card-wrapper .card .text-container .student-img {
+    width: 85px;
+    height: 85px;
+    position: static;
+    margin-top: -42px;
+  }
+  .testmonial-sec .container .card-wrapper .card.two {
+    position: static;
+  }
+  .testmonial-sec .container .card-wrapper .card.three {
+    position: static;
+  }
+}
+
+/*mobile view media queries ends*/
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
-  body, html {
+  body,
+  html {
     overflow-x: hidden;
   }
   .hero_sec {
