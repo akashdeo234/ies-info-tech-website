@@ -69,11 +69,17 @@ footer {
 @media (max-width: 400px) {
   footer{
     width: 100%;
-    height: 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 55px;
     .container{
-      height: 300px;
+      width: 95%;
+      height: 50%;
       flex-direction: column;
-      align-items: center;
+      .nav_group{
+        margin-left: 0;
+      }
     }
   }
 }
@@ -81,9 +87,25 @@ footer {
 /*mobile view media queries ends*/
 
 
+/* mobile iphone se starts */
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  footer{
+    height: 400px;
+    .container{
+      height: 60%;
+      justify-content: space-between;
+      .nav_group{
+        a{
+          li{
+            margin: 0 29px;
+          }
+        }
+      }
+    }
+  }
+}
 
-
-
+/* mobile iphone se ends */
 
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
