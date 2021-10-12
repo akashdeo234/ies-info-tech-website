@@ -106,6 +106,19 @@
 
 /*mobile view media queries ends */
 
+/* mobile iphone se starts */
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .header{
+    .container{
+      .nav_group{
+        transform: translateY(264px);
+      }
+    }
+  }
+}
+
+/* mobile iphone se ends */
+
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
   .header {
