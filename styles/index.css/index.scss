@@ -752,6 +752,9 @@ p {
 
 /* mobile iphone se starts */
 @media only screen and (min-width: 320px) and (max-width: 370px) {
+  .our-affliations-sec{
+    overflow: hidden;
+  }
   .why-choose-sec {
     .container {
       .card-wrapper {
