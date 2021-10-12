@@ -87,9 +87,8 @@ span,
             margin-bottom: 25px;
             max-width: 600px;
           }
-          h2.long-text{
+          h2.long-text {
             font-size: 52px;
-          
           }
           span {
             font-weight: 800;
@@ -167,20 +166,20 @@ span,
           width: 32px;
           height: 32px;
         }
-        .t-sec{
+        .t-sec {
           background-color: #fff;
           height: 350px;
           padding: 53px;
-          .iteam-wrapper{
-            .iteam{
+          .iteam-wrapper {
+            .iteam {
               display: flex;
               gap: 80px 0;
               align-items: center;
               margin: 25px 0;
-              img{
+              img {
                 margin-right: 65px;
               }
-              span{
+              span {
                 font-size: 22px;
                 font-weight: 800;
                 color: $primay-two;
@@ -188,20 +187,20 @@ span,
             }
           }
         }
-        .b-sec{
+        .b-sec {
           background-color: #fff;
           height: 350px;
           padding: 50px 35px 100px;
-          h4{
+          h4 {
             font-size: 22px;
             margin-bottom: 33px;
           }
-          ul{
+          ul {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             height: 70%;
-            li a{
+            li a {
               opacity: 0.8;
             }
           }
@@ -210,3 +209,95 @@ span,
     }
   }
 }
+
+/*mobile view media queries starts*/
+@media only screen and (max-width: 600px) {
+  .indivitual-courses {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    .container {
+      overflow: hidden;
+      width: 95%;
+      height: auto;
+      padding-bottom: 100px;
+      .top-sec {
+        flex-direction: column;
+        height: auto;
+        .right-sec {
+
+          .text-wrapper {
+            h2 {
+              font-size: 29px;
+              margin-bottom: 12px;
+            }
+            .btn{
+              padding: 12px 72px;
+              width: 100px;
+              font-size: 19px;
+            }
+          }
+        }
+      }
+      .bottom-sec {
+        flex-direction: column;
+        height: auto;
+        .left-sec{
+          width: 100%;
+          height: auto;
+          .container{
+            height: auto;
+            padding: 60px 10px;
+            .text-wrapper{
+              .iteam-wrapper{
+                position: static;
+                li{
+                  list-style: square;
+                }
+              }
+            }
+          }
+        }
+        .right-sec{
+          width: 100%;
+          height: auto;
+          .t-sec{
+            padding: 53px 32px;
+          }
+          .b-sec{
+            padding: 53px 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*mobile view media queries ends*/
+
+/* mobile iphone se starts */
+
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .indivitual-courses{
+    padding-bottom: 50px;
+
+    .container{
+      padding-bottom: 50px;
+    }
+  }
+}
+
+/* mobile iphone se ends */
+
+/*Desktop View Media Queries Starts*/
+
+@media only screen and (min-width: 1600px) {
+  .indivitual-courses {
+    height: 135vh;
+    padding-bottom: 80px;
+  }
+}
+
+/*Desktop View Media Queries ends*/
