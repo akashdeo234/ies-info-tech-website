@@ -1386,6 +1386,8 @@ p {
     height: 350px;
     padding: 22px 40px;
     position: static;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
   .why-choose-sec .container .card-wrapper .card .right {
     width: 300px;
