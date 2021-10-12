@@ -47,10 +47,19 @@
 html,
 body {
   scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
   overflow-x: hidden;
 }
 
 section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
   overflow-x: hidden;
 }
 
@@ -138,10 +147,19 @@ img {
 html,
 body {
   scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
   overflow-x: hidden;
 }
 
 section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
   overflow-x: hidden;
 }
 
@@ -266,7 +284,7 @@ img {
     position: relative;
   }
   .header .container {
-    width: 345px;
+    width: 90%;
   }
   .header .container .logo {
     z-index: 80;
@@ -373,10 +391,19 @@ img {
 html,
 body {
   scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
   overflow-x: hidden;
 }
 
 section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
   overflow-x: hidden;
 }
 
@@ -614,6 +641,8 @@ p {
   width: 100%;
   height: 85vh;
   background-color: #41436a;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .hero_sec .container {
@@ -689,6 +718,7 @@ p {
   width: 100%;
   height: 556px;
   background-color: #fe9677;
+  overflow-x: hidden;
 }
 
 .our-teacher-sec .container {
@@ -766,7 +796,7 @@ p {
   width: 100%;
   height: 1150px;
   background-color: #fff;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .why-choose-sec .container {
@@ -895,7 +925,7 @@ p {
 .our-affliations-sec {
   width: 100%;
   height: 590px;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: #fe9677;
 }
 
@@ -943,7 +973,7 @@ p {
   width: 100%;
   height: 200vh;
   background-color: #984063;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .top-students-choice-sec .container {
@@ -1098,7 +1128,7 @@ p {
   width: 100%;
   height: 220vh;
   background-color: #41436a;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .testmonial-sec .container {
@@ -1256,11 +1286,22 @@ p {
     width: 95%;
   }
   .our-teacher-sec .container .card-wrapper {
-    -ms-grid-columns: 0%;
-        grid-template-columns: 0%;
-    -webkit-transform: translateX(11%);
-            transform: translateX(11%);
-    grid-gap: 35px;
+    width: inherit;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    gap: 35px;
   }
   .why-choose-sec {
     height: auto;
@@ -1311,7 +1352,7 @@ p {
   }
   .our-affliations-sec {
     padding-bottom: 80px;
-    height: 56vh;
+    height: 75vh;
   }
   .our-affliations-sec .container {
     width: 95%;
@@ -1433,6 +1474,55 @@ p {
 }
 
 /*mobile view media queries ends*/
+/* mobile iphone se starts */
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .why-choose-sec .container .card-wrapper .card {
+    width: 298px;
+  }
+  .why-choose-sec .container .card-wrapper .card .right {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .why-choose-sec .container .card-wrapper .card .right h4 {
+    max-width: 274px;
+    font-size: 17px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card {
+    width: 304px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card .top {
+    width: 304px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card .bottom {
+    width: 434px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card .bottom .title::after {
+    width: 120.6%;
+    -webkit-transform: translateX(-69.9%);
+            transform: translateX(-69.9%);
+  }
+  .testmonial-sec .container .card-wrapper .card {
+    width: 305px;
+    height: auto;
+    padding: 20px 0;
+  }
+  .testmonial-sec .container .card-wrapper .card .text-container {
+    width: 305px;
+  }
+  .testmonial-sec .container .card-wrapper .card .text-container .student-img {
+    margin-top: -61px;
+  }
+  .testmonial-sec .container .card-wrapper .card .text-container .text-wrapper {
+    width: 276px;
+  }
+  .testmonial-sec .container .card-wrapper .card .text-container .text-wrapper .text-bottom {
+    -webkit-transform: translateY(12px);
+            transform: translateY(12px);
+  }
+}
+
+/* mobile iphone se ends */
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
   body,

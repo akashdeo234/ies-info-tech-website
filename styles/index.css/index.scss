@@ -69,6 +69,8 @@ p {
   width: 100%;
   height: 85vh;
   background-color: $primay-two;
+  overflow-x: hidden;
+  position: relative;
 
   .container {
     width: 1200px;
@@ -76,6 +78,7 @@ p {
     margin: 0% auto;
     display: flex;
     justify-content: space-between;
+    
 
     .left_sec {
       margin-top: 104px;
@@ -129,6 +132,7 @@ p {
   width: 100%;
   height: 556px;
   background-color: $secondary-one;
+  overflow-x: hidden;
 
   .container {
     width: 1200px;
@@ -190,7 +194,7 @@ p {
   width: 100%;
   height: 1150px;
   background-color: $primary-one;
-  overflow: hidden;
+  overflow-x: hidden;
 
   .container {
     height: inherit;
@@ -282,7 +286,7 @@ p {
 .our-affliations-sec {
   width: 100%;
   height: 590px;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: $secondary-one;
 
   .container {
@@ -325,7 +329,7 @@ p {
   width: 100%;
   height: 200vh;
   background-color: $secondary-two;
-  overflow: hidden;
+  overflow-x: hidden;
 
   .container {
     height: inherit;
@@ -449,7 +453,7 @@ p {
   width: 100%;
   height: 220vh;
   background-color: $primay-two;
-  overflow: hidden;
+  overflow-x: hidden;
 
   .container {
     height: inherit;
@@ -584,9 +588,13 @@ p {
     .container {
       width: 95%;
       .card-wrapper {
-        grid-template-columns: 0%;
-        transform: translateX(11%);
-        grid-gap: 35px;
+        width: inherit;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 35px;
       }
     }
   }
@@ -629,7 +637,7 @@ p {
   }
   .our-affliations-sec {
     padding-bottom: 80px;
-    height: 56vh;
+    height: 75vh;
     .container {
       width: 95%;
       .title {
@@ -738,10 +746,74 @@ p {
       }
     }
   }
-  
 }
 
 /*mobile view media queries ends*/
+
+/* mobile iphone se starts */
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .why-choose-sec {
+    .container {
+      .card-wrapper {
+        .card {
+          width: 298px;
+          .right {
+            align-items: center;
+            h4 {
+              max-width: 274px;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .top-students-choice-sec {
+    .container {
+      .card-wrapper {
+        .card {
+          width: 304px;
+          .top {
+            width: 304px;
+          }
+          .bottom {
+            width: 434px;
+            .title::after {
+              width: 120.6%;
+              transform: translateX(-69.9%);
+            }
+          }
+        }
+      }
+    }
+  }
+  .testmonial-sec{
+    .container{
+      .card-wrapper{
+        .card{
+          width: 305px;
+          height: auto;
+          padding: 20px 0;
+          .text-container{
+            width: 305px;
+            .student-img{
+              margin-top: -61px;
+            }
+            .text-wrapper{
+              width: 276px;
+              .text-bottom{
+                transform: translateY(12px);
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* mobile iphone se ends */
 
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {

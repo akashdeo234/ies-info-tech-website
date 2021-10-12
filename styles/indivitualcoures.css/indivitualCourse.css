@@ -47,10 +47,19 @@
 html,
 body {
   scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
   overflow-x: hidden;
 }
 
 section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
   overflow-x: hidden;
 }
 
@@ -138,10 +147,19 @@ img {
 html,
 body {
   scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
   overflow-x: hidden;
 }
 
 section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
   overflow-x: hidden;
 }
 
@@ -266,7 +284,7 @@ img {
     position: relative;
   }
   .header .container {
-    width: 345px;
+    width: 90%;
   }
   .header .container .logo {
     z-index: 80;
