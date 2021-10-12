@@ -347,7 +347,7 @@ img {
 /* mobile iphone se starts */
 @media only screen and (min-width: 320px) and (max-width: 370px) {
   .header .container .nav_group {
-    top: 72px;
+    top: 30px;
   }
 }
 
