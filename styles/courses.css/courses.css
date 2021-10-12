@@ -692,7 +692,9 @@ p {
 
 .course-sec .container {
   width: 1367px;
+  height: inherit;
   margin: 0% auto;
+  overflow: hidden;
 }
 
 .course-sec .container .title {
@@ -859,6 +861,82 @@ p {
 }
 
 /*Course sec ends*/
+/*mobile view media queries starts*/
+@media only screen and (max-width: 600px) {
+  .course-sec {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .course-sec .container {
+    width: 95%;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .course-sec .container h2 {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 76px;
+  }
+  .course-sec .container .title {
+    font-size: 33px;
+  }
+  .course-sec .container .title::after {
+    width: 95px;
+    top: 56px;
+  }
+  .course-sec .container .card-wrapper {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .course-sec .container .card-wrapper .card {
+    width: 357px;
+  }
+  .course-sec .container .card-wrapper .card .top {
+    width: 357px;
+  }
+  .course-sec .container .card-wrapper .card .bottom {
+    width: 357px;
+    padding-left: 13px;
+  }
+  .course-sec .container .card-wrapper .card .bottom .title::after {
+    width: 169%;
+  }
+}
+
+/*mobile view media queries ends*/
+/* mobile iphone se starts */
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .course-sec .container .card-wrapper .card {
+    width: 323px;
+    border-radius: 22px;
+  }
+  .course-sec .container .card-wrapper .card .top {
+    width: 323px;
+  }
+  .course-sec .container .card-wrapper .card .bottom {
+    width: 323px;
+  }
+  .course-sec .container .card-wrapper .card .bottom .btn {
+    padding: 11px 20.88px;
+  }
+  .course-sec .container .card-wrapper .card .bottom .bt-group {
+    margin-left: 1px;
+  }
+}
+
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
   .course-sec {

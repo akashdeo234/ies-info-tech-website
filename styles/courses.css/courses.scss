@@ -64,7 +64,9 @@ p {
   background-color: $primay-two;
   .container {
     width: 1367px;
+    height: inherit;
     margin: 0% auto;
+    overflow: hidden;
     .title {
       margin-top: 70px;
       text-align: center;
@@ -198,6 +200,81 @@ p {
 }
 
 /*Course sec ends*/
+
+/*mobile view media queries starts*/
+@media only screen and (max-width: 600px) {
+  .course-sec {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+    .container {
+      width: 95%;
+      height: auto;
+      padding-bottom: 80px;
+      h2 {
+        transform: translateX(0);
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 76px;
+      }
+      .title {
+        font-size: 33px;
+      }
+      .title::after {
+        width: 95px;
+        top: 56px;
+      }
+      .card-wrapper {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .card {
+          width: 357px;
+          .top {
+            width: 357px;
+          }
+          .bottom {
+            width: 357px;
+            padding-left: 13px;
+            .title::after {
+              width: 169%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*mobile view media queries ends*/
+
+/* mobile iphone se starts */
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .course-sec{
+    .container{
+      .card-wrapper{
+        .card{
+          width: 323px;
+          border-radius: 22px;
+          .top{
+            width: 323px;
+          }
+          .bottom{
+            width: 323px;
+            .btn{
+              padding: 11px 20.88px;
+            }
+            .bt-group{
+              margin-left: 1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
