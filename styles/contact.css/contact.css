@@ -786,6 +786,8 @@ p {
 }
 
 .contact-us-sec .container .flew-wrapper .right .card {
+  min-height: 0%;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -809,6 +811,7 @@ p {
 
 .contact-us-sec .container .flew-wrapper .right .card.one .container {
   padding: 88px 61px;
+  overflow: hidden;
 }
 
 .contact-us-sec .container .flew-wrapper .right .card.one .container .first,
@@ -847,6 +850,7 @@ p {
 
 .contact-us-sec .container .flew-wrapper .right .card.two .container {
   padding: 33px 80px;
+  overflow: hidden;
 }
 
 .contact-us-sec .container .flew-wrapper .right .card.two .container .social-group {
@@ -869,6 +873,68 @@ p {
 }
 
 /*Contact us ends*/
+/*mobile view media queries starts*/
+@media only screen and (max-width: 600px) {
+  .contact-us-sec {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .contact-us-sec .container {
+    width: 95%;
+  }
+  .contact-us-sec .container .flew-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    gap: 60px 0;
+  }
+  .contact-us-sec .container .flew-wrapper .left,
+  .contact-us-sec .container .flew-wrapper .right {
+    width: 100%;
+  }
+  .contact-us-sec .container .flew-wrapper .right {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 25px;
+  }
+  .contact-us-sec .container .flew-wrapper .right .card.one {
+    position: static;
+  }
+  .contact-us-sec .container .flew-wrapper .right .card.one .container {
+    padding: 82px 42px;
+    text-align: start;
+  }
+  .contact-us-sec .container .flew-wrapper .right .card.two {
+    display: none;
+  }
+}
+
+/*mobile view media queries ends*/
+/* mobile iphone se starts */
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .contact-us-sec .container .flew-wrapper {
+    width: 98%;
+    overflow-x: hidden;
+  }
+  .contact-us-sec .container .flew-wrapper .left form .first {
+    gap: 0px 15px;
+  }
+  .contact-us-sec .container .flew-wrapper .left form .first input {
+    width: 50%;
+  }
+}
+
+/* mobile iphone se ends */
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
   .contact-us-sec {

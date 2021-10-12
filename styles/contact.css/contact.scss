@@ -142,6 +142,8 @@ p {
       }
       .right {
         .card {
+          min-height: 0%;
+          overflow: hidden;
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
@@ -155,6 +157,7 @@ p {
           background-color: $primary-one;
           .container {
             padding: 88px 61px;
+            overflow: hidden;
             .first,
             .second,
             .third {
@@ -182,6 +185,7 @@ p {
           left: 780px;
           .container {
             padding: 33px 80px;
+            overflow: hidden;
             .social-group {
               display: flex;
               gap: 30px;
@@ -202,6 +206,69 @@ p {
 }
 
 /*Contact us ends*/
+
+/*mobile view media queries starts*/
+@media only screen and (max-width: 600px) {
+  .contact-us-sec {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+    .container {
+      width: 95%;
+      .flew-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 60px 0;
+        .left,
+        .right {
+          width: 100%;
+        }
+        .right {
+          flex-wrap: wrap;
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          .card.one {
+            position: static;
+            .container {
+              padding: 82px 42px;
+              text-align: start;
+            }
+          }
+          .card.two {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*mobile view media queries ends*/
+
+/* mobile iphone se starts */
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .contact-us-sec {
+    .container {
+      .flew-wrapper {
+        width: 98%;
+        overflow-x: hidden;
+        .left {
+          form {
+            .first{
+              gap: 0px 15px;
+              input {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* mobile iphone se ends */
 
 /*Desktop View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
