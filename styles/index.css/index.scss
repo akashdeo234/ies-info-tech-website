@@ -132,7 +132,7 @@ p {
   width: 100%;
   height: 556px;
   background-color: $secondary-one;
-  overflow-x: hidden;
+  overflow: hidden;
 
   .container {
     width: 1200px;
@@ -194,7 +194,7 @@ p {
   width: 100%;
   height: 1150px;
   background-color: $primary-one;
-  overflow-x: hidden;
+  overflow: hidden;
 
   .container {
     height: inherit;
@@ -286,7 +286,7 @@ p {
 .our-affliations-sec {
   width: 100%;
   height: 590px;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: $secondary-one;
 
   .container {
@@ -329,7 +329,7 @@ p {
   width: 100%;
   height: 200vh;
   background-color: $secondary-two;
-  overflow-x: hidden;
+  overflow: hidden;
 
   .container {
     height: inherit;
@@ -453,7 +453,7 @@ p {
   width: 100%;
   height: 220vh;
   background-color: $primay-two;
-  overflow-x: hidden;
+  overflow: hidden;
 
   .container {
     height: inherit;
@@ -752,9 +752,6 @@ p {
 
 /* mobile iphone se starts */
 @media only screen and (min-width: 320px) and (max-width: 370px) {
-  .our-affliations-sec{
-    overflow: hidden;
-  }
   .why-choose-sec {
     .container {
       .card-wrapper {

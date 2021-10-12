@@ -727,7 +727,7 @@ p {
   width: 100%;
   height: 556px;
   background-color: #fe9677;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .our-teacher-sec .container {
@@ -805,7 +805,7 @@ p {
   width: 100%;
   height: 1150px;
   background-color: #fff;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .why-choose-sec .container {
@@ -934,7 +934,7 @@ p {
 .our-affliations-sec {
   width: 100%;
   height: 590px;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: #fe9677;
 }
 
@@ -982,7 +982,7 @@ p {
   width: 100%;
   height: 200vh;
   background-color: #984063;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .top-students-choice-sec .container {
@@ -1137,7 +1137,7 @@ p {
   width: 100%;
   height: 220vh;
   background-color: #41436a;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .testmonial-sec .container {
@@ -1485,9 +1485,6 @@ p {
 /*mobile view media queries ends*/
 /* mobile iphone se starts */
 @media only screen and (min-width: 320px) and (max-width: 370px) {
-  .our-affliations-sec {
-    overflow: hidden;
-  }
   .why-choose-sec .container .card-wrapper .card {
     width: 298px;
   }
