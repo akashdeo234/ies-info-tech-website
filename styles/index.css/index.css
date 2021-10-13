@@ -1375,6 +1375,12 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .why-choose-sec .container .card-wrapper .card:nth-child(2) {
+    margin-left: 0%;
   }
   .why-choose-sec .container .card-wrapper .card {
     -webkit-box-orient: vertical;
@@ -1452,6 +1458,10 @@ p {
     height: auto;
     overflow: hidden;
     gap: 30px 0;
+    width: inherit;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .top-students-choice-sec .container .card-wrapper .card {
     width: 351px;
@@ -1507,6 +1517,9 @@ p {
             flex-direction: column;
     position: static;
     gap: 100px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .testmonial-sec .container .card-wrapper .card {
     width: 353px;
