@@ -155,7 +155,7 @@
 }
 
 /*mobile view media queries starts*/
-@media only screen and (max-width: 600px) {
+@media (max-width: 766px) {
   .indivitual-courses {
     width: 100%;
     height: auto;
@@ -223,7 +223,7 @@
 
 /* mobile iphone se starts */
 
-@media only screen and (min-width: 320px) and (max-width: 370px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .indivitual-courses{
     padding-bottom: 50px;
 

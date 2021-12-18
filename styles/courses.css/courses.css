@@ -659,7 +659,7 @@ footer .container .social-group a img:hover {
 
 /*Course sec ends*/
 /*mobile view media queries starts*/
-@media only screen and (max-width: 600px) {
+@media (max-width: 766px) {
   .course-sec {
     width: 100%;
     height: auto;
@@ -715,7 +715,7 @@ footer .container .social-group a img:hover {
 
 /*mobile view media queries ends*/
 /* mobile iphone se starts */
-@media only screen and (min-width: 320px) and (max-width: 370px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .course-sec .container .card-wrapper .card {
     width: 323px;
     border-radius: 22px;

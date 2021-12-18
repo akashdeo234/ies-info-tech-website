@@ -154,7 +154,7 @@
 /*Contact us ends*/
 
 /*mobile view media queries starts*/
-@media only screen and (max-width: 600px) {
+@media (max-width: 766px) {
   .contact-us-sec {
     width: 100%;
     height: auto;
@@ -193,7 +193,7 @@
 /*mobile view media queries ends*/
 
 /* mobile iphone se starts */
-@media only screen and (min-width: 320px) and (max-width: 370px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .contact-us-sec {
     .container {
       .flew-wrapper {
