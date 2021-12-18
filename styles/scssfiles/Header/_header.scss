@@ -30,6 +30,7 @@
         margin: 0 39px;
         font-size: 20px;
         transition: 0.3s ease;
+        font-weight: 600;
       }
       a li.active {
         color: $complent-color;
@@ -41,6 +42,7 @@
     }
     a.btn {
       font-size: 17px;
+      font-weight: 600;
       text-align: center;
       background-color: $primay-two;
       color: $primary-one;

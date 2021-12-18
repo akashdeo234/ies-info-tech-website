@@ -28,6 +28,7 @@ footer {
         margin: 0 39px;
         font-size: 20px;
         transition: 0.3s ease;
+        font-weight: 600;
       }
       a li.active {
         color: $complent-color;
@@ -45,6 +46,7 @@ footer {
       padding: 14px 35px 12px;
       border-radius: 10px;
       outline: none;
+      font-weight: 600;
     }
     .social-group {
       display: flex;

@@ -1,47 +1,19 @@
-/* calibre fonts starts */
-@font-face {
-  font-family: calibreBlack;
-  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
-}
-
-@font-face {
-  font-family: calibreBold;
-  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
-}
-
-@font-face {
-  font-family: calibreSemiBold;
-  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
-}
-
-@font-face {
-  font-family: calibreMedium;
-  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
-}
-
-@font-face {
-  font-family: calibreRegular;
-  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
-}
-
-@font-face {
-  font-family: calibreLight;
-  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
-}
-
-@font-face {
-  font-family: calibreThin;
-  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
-}
-
-/* calibre fonts ends */
+/*fonts starts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap");
+/*fonts ends */
 /*Colors*/
 /*Resets*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -57,6 +29,7 @@ body {
 body {
   width: 100%;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -66,36 +39,17 @@ section {
 
 .container {
   overflow-x: hidden;
+  width: 1200px;
+  margin: 0% auto;
 }
 
 li {
   list-style: none;
 }
 
-h1 {
-  font-family: calibreBlack;
-}
-
 a {
   text-decoration: none;
-  font-family: calibreBold;
   cursor: pointer;
-}
-
-h2 {
-  font-family: calibreBold;
-}
-
-h3 {
-  font-family: calibreSemiBold;
-}
-
-h4 {
-  font-family: calibreMedium;
-}
-
-p {
-  font-family: calibreLight;
 }
 
 img {
@@ -103,43 +57,8 @@ img {
   width: 100%;
 }
 
-/* calibre fonts starts */
-@font-face {
-  font-family: calibreBlack;
-  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
-}
-
-@font-face {
-  font-family: calibreBold;
-  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
-}
-
-@font-face {
-  font-family: calibreSemiBold;
-  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
-}
-
-@font-face {
-  font-family: calibreMedium;
-  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
-}
-
-@font-face {
-  font-family: calibreRegular;
-  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
-}
-
-@font-face {
-  font-family: calibreLight;
-  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
-}
-
-@font-face {
-  font-family: calibreThin;
-  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
-}
-
-/* calibre fonts ends */
+/*fonts starts */
+/*fonts ends */
 /*Colors*/
 /*Resets*/
 * {
@@ -147,6 +66,10 @@ img {
           box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -162,6 +85,7 @@ body {
 body {
   width: 100%;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -171,36 +95,17 @@ section {
 
 .container {
   overflow-x: hidden;
+  width: 1200px;
+  margin: 0% auto;
 }
 
 li {
   list-style: none;
 }
 
-h1 {
-  font-family: calibreBlack;
-}
-
 a {
   text-decoration: none;
-  font-family: calibreBold;
   cursor: pointer;
-}
-
-h2 {
-  font-family: calibreBold;
-}
-
-h3 {
-  font-family: calibreSemiBold;
-}
-
-h4 {
-  font-family: calibreMedium;
-}
-
-p {
-  font-family: calibreLight;
 }
 
 img {
@@ -256,6 +161,7 @@ img {
   font-size: 20px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  font-weight: 600;
 }
 
 .header .container .nav_group a li.active {
@@ -269,6 +175,7 @@ img {
 
 .header .container a.btn {
   font-size: 17px;
+  font-weight: 600;
   text-align: center;
   background-color: #41436a;
   color: #fff;
@@ -364,43 +271,8 @@ img {
 }
 
 /*Desktop View Media Queries Ends*/
-/* calibre fonts starts */
-@font-face {
-  font-family: calibreBlack;
-  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
-}
-
-@font-face {
-  font-family: calibreBold;
-  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
-}
-
-@font-face {
-  font-family: calibreSemiBold;
-  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
-}
-
-@font-face {
-  font-family: calibreMedium;
-  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
-}
-
-@font-face {
-  font-family: calibreRegular;
-  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
-}
-
-@font-face {
-  font-family: calibreLight;
-  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
-}
-
-@font-face {
-  font-family: calibreThin;
-  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
-}
-
-/* calibre fonts ends */
+/*fonts starts */
+/*fonts ends */
 /*Colors*/
 /*Resets*/
 * {
@@ -408,6 +280,10 @@ img {
           box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -423,6 +299,7 @@ body {
 body {
   width: 100%;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -432,36 +309,17 @@ section {
 
 .container {
   overflow-x: hidden;
+  width: 1200px;
+  margin: 0% auto;
 }
 
 li {
   list-style: none;
 }
 
-h1 {
-  font-family: calibreBlack;
-}
-
 a {
   text-decoration: none;
-  font-family: calibreBold;
   cursor: pointer;
-}
-
-h2 {
-  font-family: calibreBold;
-}
-
-h3 {
-  font-family: calibreSemiBold;
-}
-
-h4 {
-  font-family: calibreMedium;
-}
-
-p {
-  font-family: calibreLight;
 }
 
 img {
@@ -513,6 +371,7 @@ footer .container .nav_group a li {
   font-size: 20px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  font-weight: 600;
 }
 
 footer .container .nav_group a li.active {
@@ -532,6 +391,7 @@ footer .container a.btn {
   padding: 14px 35px 12px;
   border-radius: 10px;
   outline: none;
+  font-weight: 600;
 }
 
 footer .container .social-group {
@@ -619,88 +479,19 @@ footer .container .social-group a img:hover {
 }
 
 /*Desktop View Media Queries Ends*/
-/* calibre fonts starts */
-@font-face {
-  font-family: calibreBlack;
-  src: url(/fonts/calibre_font/CalibreBlack.otf);
-}
-
-@font-face {
-  font-family: calibreBold;
-  src: url(/fonts/calibre_font/CalibreBold.otf);
-}
-
-@font-face {
-  font-family: calibreSemiBold;
-  src: url(/fonts/calibre_font/CalibreSemibold.otf);
-}
-
-@font-face {
-  font-family: calibreMedium;
-  src: url(/fonts/calibre_font/CalibreMedium.otf);
-}
-
-@font-face {
-  font-family: calibreRegular;
-  src: url(/fonts/calibre_font/CalibreRegular.otf);
-}
-
-@font-face {
-  font-family: calibreLight;
-  src: url(/fonts/calibre_font/CalibreLight.otf);
-}
-
-@font-face {
-  font-family: calibreThin;
-  src: url(/fonts/calibre_font/CalibreThin.otf);
-}
-
-h1 {
-  font-family: calibreBlack;
-}
-
-a {
-  text-decoration: none;
-  font-family: calibreBold;
-  cursor: pointer;
-}
-
-h2 {
-  font-family: calibreBold;
-}
-
-h3 {
-  font-family: calibreSemiBold;
-}
-
-h4 {
-  font-family: calibreMedium;
-}
-
-p {
-  font-family: calibreLight;
-}
-
-/* calibre fonts ends */
-/* gtAlpina fonts  */
-@font-face {
-  font-family: gtAlpinaBold;
-  src: url(/Root/fonts/gtAlpina_font/GTAlpinaBold.ttf);
-}
-
 /*Laptop View Media Queries Starts*/
 /*hero starts*/
 .hero_sec {
   width: 100%;
-  height: 85vh;
+  height: auto;
+  padding-bottom: 80px;
   background-color: #41436a;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 }
 
 .hero_sec .container {
   width: 1200px;
-  height: inherit;
   margin: 0% auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -708,6 +499,9 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero_sec .container .left_sec {
@@ -716,25 +510,36 @@ p {
 
 .hero_sec .container .left_sec h1 {
   color: #fff;
-  max-width: 575px;
+  font-weight: bold;
+  max-width: 780px;
   max-height: 363px;
-  font-size: 93px;
-  line-height: 105px;
-  font-family: gtAlpinaBold;
+  font-size: 70px;
+  line-height: 85px;
 }
 
 .hero_sec .container .left_sec h2 {
-  max-width: 580px;
-  margin: 33px 0;
+  font-size: 17px;
+  font-weight: 400;
+  max-width: 660px;
+  margin: 25px 0;
   color: white;
-  font-weight: 500;
+  line-height: 30px;
 }
 
-.hero_sec .container .left_sec .btn {
-  margin-top: 28px;
+.hero_sec .container .left_sec .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.hero_sec .container .left_sec .btn-group .btn {
+  font-size: 15px;
+  font-weight: 600;
   width: 255px;
-  background-color: #fe9677;
   color: #fff;
+  border: solid 3px #fff;
   padding: 15px 40px;
   border-radius: 10px;
   display: -webkit-box;
@@ -748,21 +553,15 @@ p {
           justify-content: space-evenly;
 }
 
-.hero_sec .container .left_sec .btn img {
-  margin-bottom: 3px;
-  height: 19px;
-  width: 19px;
-}
-
 .hero_sec .container .right_sec {
-  margin-top: 94px;
   position: absolute;
-  left: 860px;
+  right: -10%;
+  margin-top: 94px;
 }
 
 .hero_sec .container .right_sec img {
-  width: 744px;
-  height: 540px;
+  width: 650px;
+  height: 550px;
 }
 
 /*hero ends*/
@@ -847,14 +646,15 @@ p {
 /*Why choose sec starts*/
 .why-choose-sec {
   width: 100%;
-  height: 1150px;
+  height: auto;
+  padding-bottom: 80px;
   background-color: #fff;
   overflow: hidden;
 }
 
 .why-choose-sec .container {
   height: inherit;
-  width: 1367px;
+  width: 1200px;
   margin: 104px auto 0;
 }
 
@@ -862,36 +662,32 @@ p {
   text-align: center;
   font-size: 55px;
   position: relative;
-  margin-bottom: 137px;
-  padding-bottom: 32px;
 }
 
-.why-choose-sec .container .title::after {
-  content: "";
-  background: #fe9677;
-  width: 180px;
-  height: 4px;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 0;
+.why-choose-sec .container h3 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  max-width: 570px;
+  margin: 0% auto;
+  margin-top: 18px;
+  line-height: 35px;
+  padding-bottom: 80px;
 }
 
 .why-choose-sec .container img {
-  width: 105px;
-  height: 105px;
-  margin-left: 45px;
+  width: 100px;
+  height: 100px;
 }
 
 .why-choose-sec .container .card-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -902,71 +698,39 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 800px;
-  height: 200px;
-  border-radius: 23px;
-  background-color: #fe9677;
-}
-
-.why-choose-sec .container .card-wrapper .card .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.why-choose-sec .container .card-wrapper .card .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
-}
-
-.why-choose-sec .container .card-wrapper .card .right h4 {
-  max-width: 437px;
-  font-size: 20px;
-}
-
-.why-choose-sec .container .card-wrapper .card .right a {
-  color: #fff;
-  margin-left: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 20px;
-  -webkit-transform: translateY(45px);
-          transform: translateY(45px);
-  font-weight: 100;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 355px;
+  height: auto;
+  padding: 50px 0 80px;
+  border-radius: 23px;
+  background-color: #fe9677;
 }
 
-.why-choose-sec .container .card-wrapper .card .right a span {
-  font-size: 20px;
+.why-choose-sec .container .card-wrapper .card .right h4 {
+  max-width: 280px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
 
-.why-choose-sec .container .card-wrapper .card .right a img {
-  width: 22px;
-  height: 22px;
-  -webkit-transform: translateX(-33px);
-          transform: translateX(-33px);
-  margin-bottom: 5px;
+.why-choose-sec .container .card-wrapper .card .right a {
+  text-align: center;
+  color: black;
+  background-color: #fff;
+  padding: 16px 38px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 15px;
 }
 
 .why-choose-sec .container .card-wrapper .card:nth-child(2) {
@@ -977,46 +741,49 @@ p {
 /*Our affliation sec starts*/
 .our-affliations-sec {
   width: 100%;
-  height: 590px;
+  height: auto;
+  padding-bottom: 80px;
   overflow: hidden;
-  background-color: #fe9677;
+  background-color: #41436a;
+  color: #fff;
 }
 
 .our-affliations-sec .container {
   height: inherit;
-  width: 1367px;
+  width: 1200px;
   margin: 104px auto 0;
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .our-affliations-sec .container .title {
   text-align: center;
   font-size: 55px;
-  position: relative;
-  margin-bottom: 100px;
-  padding-bottom: 32px;
 }
 
-.our-affliations-sec .container .title::after {
-  content: "";
-  background: #fff;
-  width: 180px;
-  height: 4px;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 0;
+.our-affliations-sec .container h3 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0% auto;
+  margin-top: 18px;
+  line-height: 35px;
+  padding-bottom: 70px;
 }
 
 .our-affliations-sec .container img {
-  width: 1200px;
-  height: 197px;
+  width: 1000px;
+  height: 195px;
   border-radius: 26px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  position: absolute;
-  left: 50%;
   opacity: 0.9;
 }
 
@@ -1024,37 +791,33 @@ p {
 /*top-students-choice-sec starts*/
 .top-students-choice-sec {
   width: 100%;
-  height: 200vh;
-  background-color: #984063;
+  height: auto;
+  padding-bottom: 80px;
+  background-color: #fff;
+  color: black;
   overflow: hidden;
 }
 
 .top-students-choice-sec .container {
-  height: inherit;
   width: 1367px;
   margin: 0 auto;
   padding-top: 104px;
 }
 
 .top-students-choice-sec .container .title {
-  color: #fff;
   text-align: center;
-  font-size: 45px;
-  position: relative;
-  margin-bottom: 100px;
-  padding-bottom: 32px;
+  font-size: 55px;
 }
 
-.top-students-choice-sec .container .title::after {
-  content: "";
-  background: #fff;
-  width: 180px;
-  height: 4px;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 0;
+.top-students-choice-sec .container h3 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0% auto;
+  margin-top: 18px;
+  line-height: 35px;
+  padding-bottom: 70px;
 }
 
 .top-students-choice-sec .container .card-wrapper {
@@ -1074,7 +837,7 @@ p {
 .top-students-choice-sec .container .card-wrapper .card {
   width: 530px;
   height: 547px;
-  background-color: #fff;
+  background-color: #41436a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1083,6 +846,7 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 26px;
+  color: #fff;
 }
 
 .top-students-choice-sec .container .card-wrapper .card .stars {
@@ -1117,17 +881,15 @@ p {
 
 .top-students-choice-sec .container .card-wrapper .card .bottom .title {
   position: relative;
-  color: black;
   text-align: start;
-  max-width: 300px;
   font-size: 20px;
   height: 60px;
 }
 
 .top-students-choice-sec .container .card-wrapper .card .bottom .title::after {
   content: "";
-  background: black;
-  width: 160%;
+  background: #fff;
+  width: 200%;
   height: 4px;
   position: absolute;
   left: 80%;
@@ -1139,8 +901,8 @@ p {
 .top-students-choice-sec .container .card-wrapper .card .bottom .bt-group {
   width: 95%;
   margin: 0% auto;
-  -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1155,12 +917,21 @@ p {
 .top-students-choice-sec .container .card-wrapper .card .bottom .btn {
   background-color: #ed1b43;
   color: #fff;
+  font-weight: 700;
   padding: 12px 26.88px;
   font-size: 13px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-radius: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-students-choice-sec .container .card-wrapper .card .bottom .btn img {
+  width: 16px;
+  height: 16px;
 }
 
 .top-students-choice-sec .container .card-wrapper .card .bottom .btn span {

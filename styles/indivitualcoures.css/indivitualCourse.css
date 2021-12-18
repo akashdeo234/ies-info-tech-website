@@ -1,47 +1,18 @@
-/* calibre fonts starts */
-@font-face {
-  font-family: calibreBlack;
-  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
-}
-
-@font-face {
-  font-family: calibreBold;
-  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
-}
-
-@font-face {
-  font-family: calibreSemiBold;
-  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
-}
-
-@font-face {
-  font-family: calibreMedium;
-  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
-}
-
-@font-face {
-  font-family: calibreRegular;
-  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
-}
-
-@font-face {
-  font-family: calibreLight;
-  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
-}
-
-@font-face {
-  font-family: calibreThin;
-  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
-}
-
-/* calibre fonts ends */
+/*fonts starts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap");
+/*fonts ends */
 /*Colors*/
 /*Resets*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -57,6 +28,7 @@ body {
 body {
   width: 100%;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -66,36 +38,17 @@ section {
 
 .container {
   overflow-x: hidden;
+  width: 1200px;
+  margin: 0% auto;
 }
 
 li {
   list-style: none;
 }
 
-h1 {
-  font-family: calibreBlack;
-}
-
 a {
   text-decoration: none;
-  font-family: calibreBold;
   cursor: pointer;
-}
-
-h2 {
-  font-family: calibreBold;
-}
-
-h3 {
-  font-family: calibreSemiBold;
-}
-
-h4 {
-  font-family: calibreMedium;
-}
-
-p {
-  font-family: calibreLight;
 }
 
 img {
@@ -103,43 +56,8 @@ img {
   width: 100%;
 }
 
-/* calibre fonts starts */
-@font-face {
-  font-family: calibreBlack;
-  src: url(/Root/fonts/calibre_font/CalibreBlack.otf);
-}
-
-@font-face {
-  font-family: calibreBold;
-  src: url(/Root/fonts/calibre_font/CalibreBold.otf);
-}
-
-@font-face {
-  font-family: calibreSemiBold;
-  src: url(/Root/fonts/calibre_font/CalibreSemibold.otf);
-}
-
-@font-face {
-  font-family: calibreMedium;
-  src: url(/Root/fonts/calibre_font/CalibreMedium.otf);
-}
-
-@font-face {
-  font-family: calibreRegular;
-  src: url(/Root/fonts/calibre_font/CalibreRegular.otf);
-}
-
-@font-face {
-  font-family: calibreLight;
-  src: url(/Root/fonts/calibre_font/CalibreLight.otf);
-}
-
-@font-face {
-  font-family: calibreThin;
-  src: url(/Root/fonts/calibre_font/CalibreThin.otf);
-}
-
-/* calibre fonts ends */
+/*fonts starts */
+/*fonts ends */
 /*Colors*/
 /*Resets*/
 * {
@@ -147,6 +65,10 @@ img {
           box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -162,6 +84,7 @@ body {
 body {
   width: 100%;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -171,36 +94,17 @@ section {
 
 .container {
   overflow-x: hidden;
+  width: 1200px;
+  margin: 0% auto;
 }
 
 li {
   list-style: none;
 }
 
-h1 {
-  font-family: calibreBlack;
-}
-
 a {
   text-decoration: none;
-  font-family: calibreBold;
   cursor: pointer;
-}
-
-h2 {
-  font-family: calibreBold;
-}
-
-h3 {
-  font-family: calibreSemiBold;
-}
-
-h4 {
-  font-family: calibreMedium;
-}
-
-p {
-  font-family: calibreLight;
 }
 
 img {
@@ -256,6 +160,7 @@ img {
   font-size: 20px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  font-weight: 600;
 }
 
 .header .container .nav_group a li.active {
@@ -269,6 +174,7 @@ img {
 
 .header .container a.btn {
   font-size: 17px;
+  font-weight: 600;
   text-align: center;
   background-color: #41436a;
   color: #fff;
@@ -364,71 +270,6 @@ img {
 }
 
 /*Desktop View Media Queries Ends*/
-/* calibre fonts starts */
-@font-face {
-  font-family: calibreBlack;
-  src: url(/fonts/calibre_font/CalibreBlack.otf);
-}
-
-@font-face {
-  font-family: calibreBold;
-  src: url(/fonts/calibre_font/CalibreBold.otf);
-}
-
-@font-face {
-  font-family: calibreSemiBold;
-  src: url(/fonts/calibre_font/CalibreSemibold.otf);
-}
-
-@font-face {
-  font-family: calibreMedium;
-  src: url(/fonts/calibre_font/CalibreMedium.otf);
-}
-
-@font-face {
-  font-family: calibreRegular;
-  src: url(/fonts/calibre_font/CalibreRegular.otf);
-}
-
-@font-face {
-  font-family: calibreLight;
-  src: url(/fonts/calibre_font/CalibreLight.otf);
-}
-
-@font-face {
-  font-family: calibreThin;
-  src: url(/fonts/calibre_font/CalibreThin.otf);
-}
-
-h1 {
-  font-family: calibreBlack;
-}
-
-a {
-  text-decoration: none;
-  font-family: calibreBold;
-  cursor: pointer;
-}
-
-h2 {
-  font-family: calibreBold;
-}
-
-h3 {
-  font-family: calibreSemiBold;
-}
-
-h4 {
-  font-family: calibreMedium;
-}
-
-p,
-span,
-.iteam-wrapper {
-  font-family: calibreLight;
-}
-
-/* calibre fonts ends */
 .indivitual-courses {
   overflow: hidden;
   width: 100%;
