@@ -1186,7 +1186,7 @@ footer .container .social-group a img:hover {
   }
   .our-affliations-sec {
     padding-bottom: 80px;
-    height: 75vh;
+    height: auto;
   }
   .our-affliations-sec .container {
     width: 95%;
@@ -1297,6 +1297,9 @@ footer .container .social-group a img:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 95px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .testmonial-sec .container .card-wrapper .card {
     height: 400px;

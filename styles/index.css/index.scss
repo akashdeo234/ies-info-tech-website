@@ -564,7 +564,7 @@
   }
   .our-affliations-sec {
     padding-bottom: 80px;
-    height: 75vh;
+    height: auto;
     .container {
       width: 95%;
       .title {
@@ -659,6 +659,7 @@
       .card-wrapper{
         flex-direction: column;
         gap: 95px;
+        align-items: center;
         .card{
           height: 400px;
           .text-container{
