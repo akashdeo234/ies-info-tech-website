@@ -1083,19 +1083,20 @@ footer .container .social-group a img:hover {
     width: 95%;
   }
   .hero_sec .container .left_sec h1 {
-    font-size: 57px;
-    max-width: 341px;
-    line-height: 1;
+    font-size: 33px;
+    max-width: 401px;
+    line-height: 42px;
   }
   .hero_sec .container .left_sec h2 {
-    font-size: 17px;
-    max-width: 299px;
-    line-height: 1.4;
-  }
-  .hero_sec .container .left_sec .btn {
-    width: 161px;
-    padding: 17px 16px;
     font-size: 15px;
+    max-width: 336px;
+    line-height: 1.5;
+  }
+  .hero_sec .container .left_sec .btn-group .btn {
+    width: 50%;
+    padding: 17px 16px;
+    font-size: 10px;
+    font-weight: 600;
   }
   .hero_sec .container .right_sec {
     display: none;
@@ -1136,10 +1137,12 @@ footer .container .social-group a img:hover {
     margin: 0%;
   }
   .why-choose-sec .container .title {
-    font-size: 33px;
+    font-size: 30px;
   }
-  .why-choose-sec .container .title::after {
-    width: 95px;
+  .why-choose-sec .container h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 50px;
   }
   .why-choose-sec .container .card-wrapper {
     -webkit-box-orient: vertical;
@@ -1189,10 +1192,12 @@ footer .container .social-group a img:hover {
     width: 95%;
   }
   .our-affliations-sec .container .title {
-    font-size: 33px;
+    font-size: 30px;
   }
-  .our-affliations-sec .container .title::after {
-    width: 95px;
+  .our-affliations-sec .container h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 50px;
   }
   .our-affliations-sec .container img {
     width: 367px;
@@ -1205,17 +1210,17 @@ footer .container .social-group a img:hover {
     width: 100%;
     overflow: hidden;
     height: auto;
-    padding-bottom: 0px;
   }
   .top-students-choice-sec .container {
     width: 95%;
-    padding-bottom: 250px;
   }
   .top-students-choice-sec .container .title {
-    font-size: 33px;
+    font-size: 30px;
   }
-  .top-students-choice-sec .container .title::after {
-    width: 95px;
+  .top-students-choice-sec .container h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 50px;
   }
   .top-students-choice-sec .container .card-wrapper {
     display: -webkit-box;
@@ -1256,9 +1261,13 @@ footer .container .social-group a img:hover {
   }
   .top-students-choice-sec .container .card-wrapper .card .bottom .bt-group {
     width: 65%;
-    -webkit-transform: translateY(-70px);
-            transform: translateY(-70px);
+    -webkit-transform: translateY(55%);
+            transform: translateY(55%);
     margin-left: 14px;
+  }
+  .top-students-choice-sec .container .card-wrapper .card .bottom .bt-group .btn {
+    padding: 12px 20.88px;
+    font-size: 10px;
   }
   .top-students-choice-sec .container .card-wrapper .card.card-center {
     position: static;
@@ -1275,44 +1284,29 @@ footer .container .social-group a img:hover {
     width: 95%;
   }
   .testmonial-sec .container .title {
-    font-size: 33px;
+    font-size: 30px;
   }
-  .testmonial-sec .container .title::after {
-    width: 95px;
+  .testmonial-sec .container h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 50px;
   }
   .testmonial-sec .container .card-wrapper {
-    padding-top: 0%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    position: static;
-    gap: 100px 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    gap: 95px;
   }
   .testmonial-sec .container .card-wrapper .card {
-    width: 353px;
-    height: 250px;
+    height: 400px;
   }
-  .testmonial-sec .container .card-wrapper .card .text-container .text-wrapper {
-    position: static;
-    width: 337px;
-    margin-left: 10px;
-    margin-top: 32px;
+  .testmonial-sec .container .card-wrapper .card .text-container .text-wrapper p {
+    margin-bottom: 6px;
   }
   .testmonial-sec .container .card-wrapper .card .text-container .student-img {
-    width: 85px;
-    height: 85px;
-    position: static;
-    margin-top: -42px;
-  }
-  .testmonial-sec .container .card-wrapper .card.two {
-    position: static;
-  }
-  .testmonial-sec .container .card-wrapper .card.three {
-    position: static;
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -1328,8 +1322,9 @@ footer .container .social-group a img:hover {
             align-items: center;
   }
   .why-choose-sec .container .card-wrapper .card .right h4 {
-    max-width: 274px;
-    font-size: 17px;
+    max-width: 255px;
+    margin: 30px auto 45px;
+    font-size: 14px;
   }
   .top-students-choice-sec .container .card-wrapper .card {
     width: 304px;
@@ -1348,16 +1343,21 @@ footer .container .social-group a img:hover {
   .testmonial-sec .container .card-wrapper .card {
     width: 305px;
     height: auto;
-    padding: 20px 0;
+    padding: 30px 0;
   }
   .testmonial-sec .container .card-wrapper .card .text-container {
     width: 305px;
   }
   .testmonial-sec .container .card-wrapper .card .text-container .student-img {
-    margin-top: -61px;
+    margin-top: -41px;
+    width: 90px;
+    height: 90px;
   }
   .testmonial-sec .container .card-wrapper .card .text-container .text-wrapper {
     width: 276px;
+  }
+  .testmonial-sec .container .card-wrapper .card .text-container .text-wrapper p {
+    font-size: 13px;
   }
   .testmonial-sec .container .card-wrapper .card .text-container .text-wrapper .text-bottom {
     -webkit-transform: translateY(12px);
