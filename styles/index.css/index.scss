@@ -824,3 +824,109 @@
 }
 
 /*Desktop View Media Queries Ends*/
+
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  //hero-sec
+  .hero_sec{
+    .right_sec{
+      display: none;
+    }
+    .container{
+      width: 95%;
+      .left_sec{
+        h1{
+          font-size: 62px;
+        }
+    }
+    }
+  }
+  //students we have sec
+  .our-teacher-sec{
+    height: auto;
+    padding: 100px 0;
+    .container{
+      width: 95%;
+      .card-wrapper{
+        padding: 0%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        justify-items: center;
+        .card{
+          h1{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  //why-choose-us
+  .why-choose-sec{
+    .container{
+      width: 95%;
+      .card-wrapper{
+        flex-wrap: wrap;
+        .card:nth-child(2){
+          margin-left: 0%;
+        }
+        .card{
+          width: 600px;
+          .right{
+            h4{
+              max-width: 500px;
+              font-size: 23px;
+              margin-bottom: 42px;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  //our-affliation-sec
+  .our-affliations-sec{
+    .container{
+      width: 95%;
+      img{
+        width: 100%;
+        height: 160px;
+      }
+    }
+  }
+  //top-students-choice
+  .top-students-choice-sec{
+    .container{
+      width: 95%;
+      .card-wrapper{
+        gap: 50px;
+        width: 100%;
+        grid-template-columns:1fr;
+        height: auto;
+        justify-items: center;
+        .card.card-center{
+          position: static;
+          transform: translateX(0%);
+        }
+      }
+    }
+  }
+  //Testimonial-sec
+  .testmonial-sec{
+    .container{
+      width: 95%;
+      .card-wrapper{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 120px;
+        .card{
+          width: 75%;
+          height: auto;
+          .text-container{
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+}
+/*Tablet View Media Queries ends*/

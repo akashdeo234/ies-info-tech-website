@@ -40,7 +40,7 @@
         color: $complent-color;
       }
     }
-    a.btn {
+    .btn {
       font-size: 17px;
       font-weight: 600;
       text-align: center;
@@ -81,7 +81,7 @@
         //width: 105%;
         position: absolute;
         z-index: 1;
-        background-color: white; 
+        background-color: white;
         //margin-left: 374px;
         top: 100px;
         right: 0%;
@@ -93,14 +93,14 @@
         transition: 0.3s ease;
         transform: translateX(350px);
       }
-      .nav_group.open{
+      .nav_group.open {
         transform: translateX(0px);
         left: -20px;
       }
-      .btn{
+      .btn {
         display: none;
       }
-      .handburger{
+      .handburger {
         display: inline-block;
         z-index: 80;
         width: 25px;
@@ -114,9 +114,9 @@
 
 /* mobile iphone se starts */
 @media (min-width: 320px) and (max-width: 375px) {
-  .header{
-    .container{
-      .nav_group{
+  .header {
+    .container {
+      .nav_group {
         //transform: translateY(264px);
         top: 30px;
       }
@@ -137,13 +137,35 @@
           }
         }
       }
-      a.btn {
+      .btn {
         font-size: 20px;
         padding: 14px 35px 9px;
       }
-           
     }
   }
 }
 
 /*Desktop View Media Queries Ends*/
+
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    .container {
+      width: 95%;
+      .nav_group {
+        a {
+          li {
+            margin: 0 34px;
+            font-size: 18px;
+          }
+        }
+      }
+      .btn {
+        padding: 12px 32px 10px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+/*Tablet View Media Queries Ends*/

@@ -69,17 +69,17 @@ footer {
 
 /*mobile view media queries starts*/
 @media (max-width: 766px) {
-  footer{
+  footer {
     width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
     padding-bottom: 55px;
-    .container{
+    .container {
       width: 95%;
       height: 50%;
       flex-direction: column;
-      .nav_group{
+      .nav_group {
         margin-left: 0;
       }
     }
@@ -88,18 +88,17 @@ footer {
 
 /*mobile view media queries ends*/
 
-
 /* mobile iphone se starts */
 @media (min-width: 320px) and (max-width: 375px) {
-  footer{
+  footer {
     height: 400px;
     padding-bottom: 35px;
-    .container{
+    .container {
       height: 60%;
       justify-content: space-between;
-      .nav_group{
-        a{
-          li{
+      .nav_group {
+        a {
+          li {
             margin: 0 29px;
           }
         }
@@ -142,3 +141,36 @@ footer {
 }
 
 /*Desktop View Media Queries Ends*/
+
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    padding: 60px 0 150px;
+    .container {
+      width: 95%;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 30px;
+      .nav_group{
+        margin: 0%;
+        a{
+          li{
+            margin: 0 70px;
+            font-size: 28px;
+          }
+        }
+      }
+      .social-group{
+        gap: 0 47px;
+        a{
+          img{
+            width: 56px;
+            height: 56px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Tablet View Media Queries Ends*/

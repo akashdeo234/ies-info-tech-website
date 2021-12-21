@@ -173,7 +173,7 @@ img {
   color: #ed1b43;
 }
 
-.header .container a.btn {
+.header .container .btn {
   font-size: 17px;
   font-weight: 600;
   text-align: center;
@@ -264,13 +264,29 @@ img {
   .header .container .nav_group a li {
     font-size: 26px;
   }
-  .header .container a.btn {
+  .header .container .btn {
     font-size: 20px;
     padding: 14px 35px 9px;
   }
 }
 
 /*Desktop View Media Queries Ends*/
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header .container {
+    width: 95%;
+  }
+  .header .container .nav_group a li {
+    margin: 0 34px;
+    font-size: 18px;
+  }
+  .header .container .btn {
+    padding: 12px 32px 10px;
+    font-size: 16px;
+  }
+}
+
+/*Tablet View Media Queries Ends*/
 /*fonts starts */
 /*fonts ends */
 /*Colors*/
@@ -479,6 +495,38 @@ footer .container .social-group a img:hover {
 }
 
 /*Desktop View Media Queries Ends*/
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    padding: 60px 0 150px;
+  }
+  footer .container {
+    width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 30px;
+  }
+  footer .container .nav_group {
+    margin: 0%;
+  }
+  footer .container .nav_group a li {
+    margin: 0 70px;
+    font-size: 28px;
+  }
+  footer .container .social-group {
+    gap: 0 47px;
+  }
+  footer .container .social-group a img {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+/*Tablet View Media Queries Ends*/
 /*Laptop View Media Queries Starts*/
 /*hero starts*/
 .hero_sec {
@@ -1435,4 +1483,95 @@ footer .container .social-group a img:hover {
 }
 
 /*Desktop View Media Queries Ends*/
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero_sec .right_sec {
+    display: none;
+  }
+  .hero_sec .container {
+    width: 95%;
+  }
+  .hero_sec .container .left_sec h1 {
+    font-size: 62px;
+  }
+  .our-teacher-sec {
+    height: auto;
+    padding: 100px 0;
+  }
+  .our-teacher-sec .container {
+    width: 95%;
+  }
+  .our-teacher-sec .container .card-wrapper {
+    padding: 0%;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+  }
+  .our-teacher-sec .container .card-wrapper .card h1 {
+    font-size: 20px;
+  }
+  .why-choose-sec .container {
+    width: 95%;
+  }
+  .why-choose-sec .container .card-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .why-choose-sec .container .card-wrapper .card:nth-child(2) {
+    margin-left: 0%;
+  }
+  .why-choose-sec .container .card-wrapper .card {
+    width: 600px;
+  }
+  .why-choose-sec .container .card-wrapper .card .right h4 {
+    max-width: 500px;
+    font-size: 23px;
+    margin-bottom: 42px;
+    margin-top: 20px;
+  }
+  .our-affliations-sec .container {
+    width: 95%;
+  }
+  .our-affliations-sec .container img {
+    width: 100%;
+    height: 160px;
+  }
+  .top-students-choice-sec .container {
+    width: 95%;
+  }
+  .top-students-choice-sec .container .card-wrapper {
+    gap: 50px;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    height: auto;
+    justify-items: center;
+  }
+  .top-students-choice-sec .container .card-wrapper .card.card-center {
+    position: static;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .testmonial-sec .container {
+    width: 95%;
+  }
+  .testmonial-sec .container .card-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 120px;
+  }
+  .testmonial-sec .container .card-wrapper .card {
+    width: 75%;
+    height: auto;
+  }
+  .testmonial-sec .container .card-wrapper .card .text-container {
+    width: 90%;
+  }
+}
+
+/*Tablet View Media Queries ends*/
 /*# sourceMappingURL=index.css.map */
