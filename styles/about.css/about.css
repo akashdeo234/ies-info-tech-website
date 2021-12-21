@@ -472,6 +472,7 @@ footer .container .social-group a img:hover {
   }
   footer .container .nav_group a li {
     margin: 0 29px;
+    font-size: 16px;
   }
 }
 

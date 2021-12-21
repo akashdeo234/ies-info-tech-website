@@ -5,12 +5,12 @@
 /*Course sec starts*/
 .course-sec {
   width: 100%;
-  height: 550vh;
+  height: auto;
   overflow: hidden;
   background-color: $primay-two;
+  padding-bottom: 80px;
   .container {
-    width: 1367px;
-    height: inherit;
+    width: 1200px;
     margin: 0% auto;
     overflow: hidden;
     .title {
@@ -21,34 +21,22 @@
       margin-bottom: 40px;
       color: $primary-one;
     }
-    .title::after {
-      content: "";
-      background: $secondary-one;
-      width: 120px;
-      height: 4px;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 0;
-    }
     h2 {
-      margin-top: 70px;
-      margin-bottom: 150px;
-      font-size: 29px;
-      color: white;
-      max-width: 765px;
+      font-weight: 500;
       text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      line-height: 37px;
-      transform: translateX(38%);
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0% auto;
+      margin-top: 18px;
+      line-height: 35px;
+      padding-bottom: 80px;
+      color: $primary-one;
     }
 
     //card wrapper
     .card-wrapper {
       width: 1200px;
-      height: 1225px;
+      height: auto;
       margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -75,8 +63,8 @@
           height: 18px;
         }
         .arrow {
-          width: 13px;
-          height: 13px;
+          width: 18px;
+          height: 18px;
         }
 
         .top {
@@ -128,6 +116,8 @@
             font-size: 13px;
             display: flex;
             border-radius: 8px;
+            align-items: center;
+            font-weight: 600;
 
             span {
               margin: 0 10px;
@@ -154,21 +144,16 @@
     height: auto;
     padding-bottom: 80px;
     .container {
-      width: 95%;
+      width: 97%;
       height: auto;
       padding-bottom: 80px;
       h2 {
         transform: translateX(0);
         font-size: 17px;
         line-height: 1.5;
-        margin-bottom: 76px;
       }
       .title {
         font-size: 33px;
-      }
-      .title::after {
-        width: 95px;
-        top: 56px;
       }
       .card-wrapper {
         width: 100%;
@@ -177,15 +162,29 @@
         flex-direction: column;
         align-items: center;
         .card {
-          width: 357px;
+          width: 100%;
           .top {
-            width: 357px;
+            width: 100%;
           }
           .bottom {
-            width: 357px;
-            padding-left: 13px;
+            width: 100%;
+            padding: 0 10px;
+            .title {
+              max-width: 100%;
+              font-size: 16px;
+            }
+            .title.big {
+              font-size: 20px;
+            }
             .title::after {
-              width: 169%;
+              width: 100%;
+              left: 0%;
+              transform: translateX(0);
+              bottom: -25%;
+            }
+            .btn {
+              padding: 11px 11.88px;
+              font-size: 13px;
             }
           }
         }
@@ -198,21 +197,21 @@
 
 /* mobile iphone se starts */
 @media (min-width: 320px) and (max-width: 375px) {
-  .course-sec{
-    .container{
-      .card-wrapper{
-        .card{
+  .course-sec {
+    .container {
+      .card-wrapper {
+        .card {
           width: 323px;
           border-radius: 22px;
-          .top{
+          .top {
             width: 323px;
           }
-          .bottom{
+          .bottom {
             width: 323px;
-            .btn{
+            .btn {
               padding: 11px 20.88px;
             }
-            .bt-group{
+            .bt-group {
               margin-left: 1px;
             }
           }
@@ -239,3 +238,43 @@
 }
 
 /*Desktop View Media Queries Ends*/
+
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .course-sec {
+    .container {
+      width: 95%;
+      .card-wrapper {
+        width: 95%;
+        .card {
+          width: 100%;
+          .top {
+            width: 100%;
+          }
+          .bottom {
+            width: 100%;
+            .title{
+              max-width: 100%;
+              font-size: 15px;
+              line-height: 24px;
+              padding: 0 10px;
+            }
+            .title.big{
+              max-width: 100%;
+              font-size: 18px;
+              line-height: 24px;
+              padding: 0 10px;
+            }
+            .title::after {
+              width: 100%;
+              left: 0%;
+              transform: translateX(0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Tablet View Media Queries ends*/
