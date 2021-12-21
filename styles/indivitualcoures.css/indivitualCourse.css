@@ -289,39 +289,42 @@ img {
 .indivitual-courses {
   overflow: hidden;
   width: 100%;
-  height: 200vh;
-  background-color: #fe9677;
-  padding-top: 104px;
+  height: auto;
+  background-color: #41436a;
+  color: #fff;
+  padding: 80px 0 100px;
 }
 
 .indivitual-courses .container {
   width: 1200px;
-  height: inherit;
+  height: auto;
   margin: 0% auto;
 }
 
 .indivitual-courses .container .top-sec {
-  width: inherit;
+  width: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  gap: 70px;
+  gap: 79px;
   margin-bottom: 45px;
 }
 
 .indivitual-courses .container .top-sec .left-sec img {
-  width: 570px;
+  width: 560px;
   height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .indivitual-courses .container .top-sec .right-sec .text-wrapper h2 {
-  font-size: 60px;
-  margin-bottom: 25px;
+  font-size: 45px;
+  line-height: 62px;
+  margin-bottom: 8px;
   max-width: 600px;
 }
 
@@ -330,38 +333,49 @@ img {
 }
 
 .indivitual-courses .container .top-sec .right-sec .text-wrapper span {
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .indivitual-courses .container .top-sec .right-sec .text-wrapper p {
-  margin: 25px 0 40px;
-  font-weight: 800;
+  font-weight: 300;
   font-size: 18px;
   max-width: 450px;
-  line-height: 28px;
+  line-height: 29px;
+  margin: 15px 0 45px;
+  max-width: 600px;
 }
 
-.indivitual-courses .container .top-sec .right-sec .text-wrapper .btn {
-  width: 200px;
+.indivitual-courses .container .top-sec .right-sec .text-wrapper .btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+.indivitual-courses .container .top-sec .right-sec .text-wrapper .btn-wrapper .btn {
+  font-size: 15px;
+  font-weight: 600;
+  width: 255px;
+  height: 65px;
+  color: #fff;
+  border: solid 3px #fff;
+  padding: 21px 63px;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 20px;
-  background-color: #fff;
-  color: black;
-  padding: 15px 80px;
-  border-radius: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .indivitual-courses .container .bottom-sec {
-  height: 800px;
+  width: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,50 +387,49 @@ img {
 
 .indivitual-courses .container .bottom-sec .left-sec {
   width: 60%;
-  height: inherit;
-  background-color: #fff;
+  height: auto;
+  overflow: hidden;
 }
 
 .indivitual-courses .container .bottom-sec .left-sec .container {
+  width: 100%;
+  height: 100%;
   position: relative;
-  padding: 60px 80px 30px 45px;
 }
 
 .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper {
-  max-width: 650px;
+  max-width: 560px;
 }
 
 .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper h4 {
-  font-size: 28px;
-  margin-bottom: 40px;
+  font-size: 35px;
+  margin-bottom: 15px;
+  font-weight: 600;
 }
 
 .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper p {
-  color: #41436a;
   max-width: 550px;
   font-size: 18px;
-  font-weight: 800;
-  line-height: 32px;
-  margin-bottom: 55px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-bottom: 25px;
 }
 
 .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper .iteam-wrapper {
   position: absolute;
-  left: 59px;
+  left: 25px;
 }
 
 .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper .iteam-wrapper li {
-  color: #41436a;
   list-style: disc;
   font-size: 18px;
-  line-height: 30px;
-  font-weight: 800;
+  line-height: 34px;
+  font-weight: 300;
 }
 
 .indivitual-courses .container .bottom-sec .right-sec {
   width: 40%;
-  height: inherit;
-  height: inherit;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,6 +440,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 73px;
 }
 
 .indivitual-courses .container .bottom-sec .right-sec img {
@@ -436,6 +450,7 @@ img {
 
 .indivitual-courses .container .bottom-sec .right-sec .t-sec {
   background-color: #fff;
+  border-radius: 15px;
   height: 350px;
   padding: 53px;
 }
@@ -463,13 +478,15 @@ img {
 
 .indivitual-courses .container .bottom-sec .right-sec .b-sec {
   background-color: #fff;
+  border-radius: 15px;
   height: 350px;
   padding: 50px 35px 100px;
 }
 
 .indivitual-courses .container .bottom-sec .right-sec .b-sec h4 {
-  font-size: 22px;
+  font-size: 26px;
   margin-bottom: 33px;
+  color: black;
 }
 
 .indivitual-courses .container .bottom-sec .right-sec .b-sec ul {
@@ -513,13 +530,18 @@ img {
     height: auto;
   }
   .indivitual-courses .container .top-sec .right-sec .text-wrapper h2 {
-    font-size: 29px;
-    margin-bottom: 12px;
+    font-size: 25px;
+    margin-bottom: 8px;
+    line-height: 40px;
   }
-  .indivitual-courses .container .top-sec .right-sec .text-wrapper .btn {
-    padding: 12px 72px;
-    width: 100px;
+  .indivitual-courses .container .top-sec .right-sec .text-wrapper p {
+    font-size: 15px;
+  }
+  .indivitual-courses .container .top-sec .right-sec .text-wrapper .btn-wrapper .btn {
+    width: 50%;
     font-size: 19px;
+    font-size: 12px;
+    padding: 15px 0;
   }
   .indivitual-courses .container .bottom-sec {
     -webkit-box-orient: vertical;
@@ -534,13 +556,22 @@ img {
   }
   .indivitual-courses .container .bottom-sec .left-sec .container {
     height: auto;
-    padding: 60px 10px;
+    padding: 0px 10px;
+  }
+  .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper h4 {
+    font-size: 27px;
   }
   .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper .iteam-wrapper {
     position: static;
   }
   .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper .iteam-wrapper li {
     list-style: square;
+    font-size: 15px;
+    line-height: 30px;
   }
   .indivitual-courses .container .bottom-sec .right-sec {
     width: 100%;
@@ -548,6 +579,9 @@ img {
   }
   .indivitual-courses .container .bottom-sec .right-sec .t-sec {
     padding: 53px 32px;
+  }
+  .indivitual-courses .container .bottom-sec .right-sec .t-sec .iteam-wrapper .iteam span {
+    font-size: 16px;
   }
   .indivitual-courses .container .bottom-sec .right-sec .b-sec {
     padding: 53px 32px;
