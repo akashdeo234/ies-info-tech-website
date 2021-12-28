@@ -789,4 +789,49 @@ footer .container .social-group a img:hover {
     padding: 40px 0;
   }
 }
+
+/*Desktop View Media Queries Ends*/
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact-us-sec {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .contact-us-sec .container {
+    width: 95%;
+  }
+  .contact-us-sec .container .flew-wrapper {
+    margin-top: 75px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-us-sec .container .flew-wrapper .left {
+    width: 100%;
+  }
+  .contact-us-sec .container .flew-wrapper .left h2 {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+  .contact-us-sec .container .flew-wrapper .left p {
+    font-size: 19px;
+    max-width: 568px;
+  }
+  .contact-us-sec .container .flew-wrapper .left form .first input {
+    width: 50%;
+  }
+  .contact-us-sec .container .flew-wrapper .left form .second input {
+    width: 100%;
+  }
+  .contact-us-sec .container .flew-wrapper .left form .third input {
+    width: 100%;
+  }
+  .contact-us-sec .container .flew-wrapper .right {
+    width: 100%;
+  }
+}
+
+/*Tablet View Media Queries Ends*/
 /*# sourceMappingURL=contact.css.map */
