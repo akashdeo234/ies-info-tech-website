@@ -184,6 +184,7 @@
       .top-sec {
         flex-direction: column;
         height: auto;
+        gap: 20px;
         .right-sec {
           .text-wrapper {
             h2 {
@@ -215,11 +216,11 @@
             height: auto;
             padding: 0px 10px;
             .text-wrapper {
-              p{
+              p {
                 font-size: 15px;
-                line-height: 30px;            
+                line-height: 30px;
               }
-              h4{
+              h4 {
                 font-size: 27px;
               }
               .iteam-wrapper {
@@ -227,7 +228,7 @@
                 li {
                   list-style: square;
                   font-size: 15px;
-                  line-height: 30px;  
+                  line-height: 30px;
                 }
               }
             }
@@ -238,9 +239,9 @@
           height: auto;
           .t-sec {
             padding: 53px 32px;
-            .iteam-wrapper{
-              .iteam{
-                span{
+            .iteam-wrapper {
+              .iteam {
+                span {
                   font-size: 16px;
                 }
               }
@@ -281,3 +282,95 @@
 }
 
 /*Desktop View Media Queries ends*/
+
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .indivitual-courses {
+    .container {
+      width: 95%;
+      .top-sec {
+        width: inherit;
+        gap: 30px;
+        .left-sec {
+          img {
+            width: 500px;
+          }
+        }
+        .right-sec {
+          .text-wrapper {
+            h2 {
+              font-size: 29px;
+              line-height: 41px;
+              margin-bottom: 8px;
+              max-width: 383px;
+            }
+            p {
+              font-size: 15px;
+              max-width: 306px;
+              line-height: 33px;
+            }
+            .btn-wrapper {
+              gap: 14px;
+              .btn {
+                text-align: center;
+                width: 34%;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+      .bottom-sec {
+        gap: 35px;
+        .left-sec {
+          .container {
+            .text-wrapper {
+              h4 {
+                font-size: 30px;
+              }
+              p {
+                font-size: 16px;
+              }
+              .iteam-wrapper {
+                li {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+        .right-sec {
+          gap: 25px;
+          img {
+            width: 28px;
+            height: 28px;
+          }
+          .t-sec,
+          .b-sec {
+            height: 100%;
+          }
+          .t-sec {
+            .iteam-wrapper {
+              .iteam {
+                span {
+                  font-size: 17px;
+                }
+              }
+            }
+          }
+          .b-sec {
+            h4 {
+              font-size: 22px;
+              margin-bottom: 22px;
+            }
+            ul {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*Tablet View Media Queries ends*/

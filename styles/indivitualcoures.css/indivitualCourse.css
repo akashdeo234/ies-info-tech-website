@@ -234,6 +234,7 @@ img {
             transform: translateX(350px);
   }
   .header .container .nav_group.open {
+    height: 100vh;
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
     left: -20px;
@@ -528,6 +529,7 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
     height: auto;
+    gap: 20px;
   }
   .indivitual-courses .container .top-sec .right-sec .text-wrapper h2 {
     font-size: 25px;
@@ -609,4 +611,72 @@ img {
 }
 
 /*Desktop View Media Queries ends*/
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .indivitual-courses .container {
+    width: 95%;
+  }
+  .indivitual-courses .container .top-sec {
+    width: inherit;
+    gap: 30px;
+  }
+  .indivitual-courses .container .top-sec .left-sec img {
+    width: 500px;
+  }
+  .indivitual-courses .container .top-sec .right-sec .text-wrapper h2 {
+    font-size: 29px;
+    line-height: 41px;
+    margin-bottom: 8px;
+    max-width: 383px;
+  }
+  .indivitual-courses .container .top-sec .right-sec .text-wrapper p {
+    font-size: 15px;
+    max-width: 306px;
+    line-height: 33px;
+  }
+  .indivitual-courses .container .top-sec .right-sec .text-wrapper .btn-wrapper {
+    gap: 14px;
+  }
+  .indivitual-courses .container .top-sec .right-sec .text-wrapper .btn-wrapper .btn {
+    text-align: center;
+    width: 34%;
+    font-size: 12px;
+  }
+  .indivitual-courses .container .bottom-sec {
+    gap: 35px;
+  }
+  .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper h4 {
+    font-size: 30px;
+  }
+  .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper p {
+    font-size: 16px;
+  }
+  .indivitual-courses .container .bottom-sec .left-sec .container .text-wrapper .iteam-wrapper li {
+    font-size: 16px;
+  }
+  .indivitual-courses .container .bottom-sec .right-sec {
+    gap: 25px;
+  }
+  .indivitual-courses .container .bottom-sec .right-sec img {
+    width: 28px;
+    height: 28px;
+  }
+  .indivitual-courses .container .bottom-sec .right-sec .t-sec,
+  .indivitual-courses .container .bottom-sec .right-sec .b-sec {
+    height: 100%;
+  }
+  .indivitual-courses .container .bottom-sec .right-sec .t-sec .iteam-wrapper .iteam span {
+    font-size: 17px;
+  }
+  .indivitual-courses .container .bottom-sec .right-sec .b-sec h4 {
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+  .indivitual-courses .container .bottom-sec .right-sec .b-sec ul {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*Tablet View Media Queries ends*/
 /*# sourceMappingURL=indivitualCourse.css.map */

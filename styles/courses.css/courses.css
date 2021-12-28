@@ -235,6 +235,7 @@ img {
             transform: translateX(350px);
   }
   .header .container .nav_group.open {
+    height: 100vh;
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
     left: -20px;
@@ -705,8 +706,9 @@ footer .container .social-group a img:hover {
   .course-sec .container h2 {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    font-size: 17px;
-    line-height: 1.5;
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 55px;
   }
   .course-sec .container .title {
     font-size: 33px;

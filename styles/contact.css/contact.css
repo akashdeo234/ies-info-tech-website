@@ -235,6 +235,7 @@ img {
             transform: translateX(350px);
   }
   .header .container .nav_group.open {
+    height: 100vh;
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
     left: -20px;

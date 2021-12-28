@@ -76,6 +76,7 @@
         }
       }
       .nav_group {
+        
         max-width: 100%;
         flex-direction: column;
         //width: 105%;
@@ -94,6 +95,7 @@
         transform: translateX(350px);
       }
       .nav_group.open {
+        height: 100vh;
         transform: translateX(0px);
         left: -20px;
       }

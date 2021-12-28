@@ -235,6 +235,7 @@ img {
             transform: translateX(350px);
   }
   .header .container .nav_group.open {
+    height: 100vh;
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
     left: -20px;
@@ -1131,15 +1132,18 @@ footer .container .social-group a img:hover {
   .hero_sec .container {
     width: 95%;
   }
+  .hero_sec .container .left_sec {
+    margin-top: 60px;
+  }
   .hero_sec .container .left_sec h1 {
-    font-size: 33px;
+    font-size: 37px;
     max-width: 401px;
     line-height: 42px;
   }
   .hero_sec .container .left_sec h2 {
-    font-size: 15px;
-    max-width: 336px;
-    line-height: 1.5;
+    font-size: 16px;
+    max-width: 385px;
+    line-height: 33px;
   }
   .hero_sec .container .left_sec .btn-group .btn {
     width: 50%;
