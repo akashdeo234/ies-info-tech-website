@@ -778,6 +778,7 @@ footer .container .social-group a img:hover {
     width: 50%;
     padding: 15px 13px;
     font-size: 11px;
+    text-align: center;
   }
   .about-us-page .meet-our-ceo-sec .container .flex-wrapper .right {
     width: 100%;
