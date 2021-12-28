@@ -549,7 +549,7 @@ footer .container .social-group a img:hover {
 }
 
 .out-story-sec .container .flex-wrapper {
-  margin-top: 125px;
+  margin-top: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -559,27 +559,22 @@ footer .container .social-group a img:hover {
 }
 
 .out-story-sec .container .flex-wrapper .left {
-  max-width: 621px;
-}
-
-.out-story-sec .container .flex-wrapper .left h1 {
-  color: #fe9677;
-  font-size: 25px;
-  margin-bottom: 35px;
+  max-width: 622px;
 }
 
 .out-story-sec .container .flex-wrapper .left h2 {
-  font-size: 53px;
+  font-size: 50px;
   color: #fff;
-  line-height: 62px;
-  margin-bottom: 24px;
+  line-height: 75px;
+  padding-bottom: 25px;
+  max-width: 712px;
 }
 
 .out-story-sec .container .flex-wrapper .left p {
   color: #fff;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .out-story-sec .container .flex-wrapper .left .btn {
@@ -587,6 +582,7 @@ footer .container .social-group a img:hover {
   color: #fff;
   padding: 15px 45px;
   border-radius: 7px;
+  font-weight: bold;
 }
 
 .out-story-sec .container .flex-wrapper .right img {
@@ -615,27 +611,6 @@ footer .container .social-group a img:hover {
   margin: 0% auto;
 }
 
-.meet-our-ceo-sec .container .title {
-  color: #fe9677;
-  text-align: center;
-  font-size: 55px;
-  position: relative;
-  margin-bottom: 140px;
-  padding-bottom: 32px;
-}
-
-.meet-our-ceo-sec .container .title::after {
-  content: "";
-  background: #fff;
-  width: 108px;
-  height: 4px;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 0;
-}
-
 .meet-our-ceo-sec .container .flex-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -643,21 +618,11 @@ footer .container .social-group a img:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 0 70px;
 }
 
 .meet-our-ceo-sec .container .flex-wrapper .left {
-  width: 50%;
-}
-
-.meet-our-ceo-sec .container .flex-wrapper .left img {
-  background-image: #41436a;
-  width: 400px;
-  height: 400px;
-}
-
-.meet-our-ceo-sec .container .flex-wrapper .right {
-  margin-top: 50px;
-  width: 50%;
+  max-width: 630px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -667,30 +632,161 @@ footer .container .social-group a img:hover {
           flex-direction: column;
 }
 
-.meet-our-ceo-sec .container .flex-wrapper .right p {
-  max-width: 750px;
+.meet-our-ceo-sec .container .flex-wrapper .left h2 {
   color: #fff;
-  font-size: 22px;
-  line-height: 35px;
-  margin-bottom: 32px;
+  font-size: 50px;
+  padding-bottom: 25px;
 }
 
-.meet-our-ceo-sec .container .flex-wrapper .right a {
-  margin-bottom: 32px;
+.meet-our-ceo-sec .container .flex-wrapper .left p {
+  max-width: 750px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 15px;
+  font-weight: 300;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .left .join-us {
+  font-size: 24px;
+  margin-bottom: 25px;
   color: #fe9677;
 }
 
-.meet-our-ceo-sec .container .flex-wrapper .right .social {
+.meet-our-ceo-sec .container .flex-wrapper .left .btn-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 0 30px;
+  gap: 25px;
+  padding-bottom: 25px;
 }
 
-.meet-our-ceo-sec .container .flex-wrapper .right .social img {
-  width: 38px;
-  height: 38px;
+.meet-our-ceo-sec .container .flex-wrapper .left .btn-group .btn {
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  height: 72px;
+  color: #fff;
+  border: solid 3px #fff;
+  padding: 15px 40px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .left .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 45px;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .left .social img {
+  width: 40px;
+  height: 40px;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .right {
+  width: 50%;
+}
+
+.meet-our-ceo-sec .container .flex-wrapper .right img {
+  background-image: #41436a;
+  width: 517px;
+  height: 509px;
 }
 
 /*Meet our ceo ends*/
+/*mobile view media queries starts*/
+@media (max-width: 766px) {
+  .about-us-page {
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .about-us-page .out-story-sec {
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-us-page .out-story-sec .container {
+    width: 95%;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 60px 0;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper .left {
+    max-width: 100%;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper .left h2 {
+    font-size: 27px;
+    line-height: 41px;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper .left p {
+    font-size: 16px;
+    line-height: 31px;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper .left .btn {
+    padding: 17px 50px;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper .right img {
+    width: 100%;
+    height: 100%;
+  }
+  .about-us-page .out-story-sec .container .bottom-sec {
+    margin-top: 53px;
+  }
+  .about-us-page .meet-our-ceo-sec {
+    width: 100%;
+    height: auto;
+  }
+  .about-us-page .meet-our-ceo-sec .container {
+    width: 95%;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 35px 0;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left h2 {
+    font-size: 40px;
+    padding-bottom: 12px;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left p {
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: 9px;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left .join-us {
+    font-size: 21px;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left .btn-group .btn {
+    width: 50%;
+    padding: 15px 13px;
+    font-size: 11px;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .right {
+    width: 100%;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .right img {
+    width: 435px;
+    height: 435px;
+  }
+}
+
+/*mobile view media queries Ends*/
 /*# sourceMappingURL=about.css.map */

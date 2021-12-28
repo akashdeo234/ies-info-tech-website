@@ -20,33 +20,30 @@
     width: 1194px;
     margin: 0% auto;
     .flex-wrapper {
-      margin-top: 125px;
+      margin-top: 65px;
       display: flex;
       justify-content: space-between;
       .left {
-        max-width: 621px;
-        h1 {
-          color: $secondary-one;
-          font-size: 25px;
-          margin-bottom: 35px;
-        }
+        max-width: 622px;
         h2 {
-          font-size: 53px;
+          font-size: 50px;
           color: #fff;
-          line-height: 62px;
-          margin-bottom: 24px;
+          line-height: 75px;
+          padding-bottom: 25px;
+          max-width: 712px;
         }
         p {
           color: $primary-one;
-          font-size: 17px;
+          font-size: 18px;
           line-height: 30px;
-          margin-bottom: 30px;
+          margin-bottom: 40px;
         }
         .btn {
           background-color: $complent-color;
           color: #fff;
           padding: 15px 45px;
           border-radius: 7px;
+          font-weight: bold;
         }
       }
       .right {
@@ -76,61 +73,155 @@
   .container {
     width: 1194px;
     margin: 0% auto;
-    .title {
-      color: $secondary-one;
-      text-align: center;
-      font-size: 55px;
-      position: relative;
-      margin-bottom: 140px;
-      padding-bottom: 32px;
-    }
-    .title::after {
-      content: "";
-      background: $primary-one;
-      width: 108px;
-      height: 4px;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 0;
-    }
     .flex-wrapper {
       display: flex;
       justify-content: space-between;
+      gap: 0 70px;
       .left {
-        width: 50%;
-        img {
-          background-image: $primay-two;
-          width: 400px;
-          height: 400px;
-        }
-      }
-      .right {
-        margin-top: 50px;
-        width: 50%;
+        max-width: 630px;
         display: flex;
         flex-direction: column;
+        h2 {
+          color: $primary-one;
+          font-size: 50px;
+          padding-bottom: 25px;
+        }
         p {
           max-width: 750px;
           color: $primary-one;
-          font-size: 22px;
-          line-height: 35px;
-          margin-bottom: 32px;
+          font-size: 18px;
+          line-height: 30px;
+          padding-bottom: 15px;
+          font-weight: 300;
         }
-        a {
-          margin-bottom: 32px;
+        .join-us {
+          font-size: 24px;
+          margin-bottom: 25px;
           color: $secondary-one;
         }
+        .btn-group {
+          display: flex;
+          gap: 25px;
+          padding-bottom: 25px;
+          .btn {
+            font-size: 15px;
+            font-weight: 600;
+            width: 100%;
+            height: 72px;
+            color: $primary-one;
+            border: solid 3px #fff;
+            padding: 15px 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+          }
+        }
+
         .social {
           display: flex;
-          gap: 0 30px;
+          gap: 0 45px;
           img {
-            width: 38px;
-            height: 38px;
+            width: 40px;
+            height: 40px;
           }
+        }
+      }
+      .right {
+        width: 50%;
+        img {
+          background-image: $primay-two;
+          width: 517px;
+          height: 509px;
         }
       }
     }
   }
 }
 /*Meet our ceo ends*/
+
+/*mobile view media queries starts*/
+@media (max-width: 766px) {
+  .about-us-page {
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+
+    .out-story-sec {
+      height: auto;
+      width: 100%;
+      margin-bottom: 30px;
+      .container {
+        width: 95%;
+        .flex-wrapper {
+          width: 100%;
+          flex-direction: column;
+          gap: 60px 0;
+          .left {
+            max-width: 100%;
+            h2 {
+              font-size: 27px;
+              line-height: 41px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 31px;
+            }
+            .btn {
+              padding: 17px 50px;
+            }
+          }
+          .right {
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        .bottom-sec {
+          margin-top: 53px;
+        }
+      }
+    }
+    .meet-our-ceo-sec {
+      width: 100%;
+      height: auto;
+      .container {
+        width: 95%;
+        .flex-wrapper {
+          flex-direction: column;
+          gap: 35px 0;
+          .left {
+            h2 {
+              font-size: 40px;
+              padding-bottom: 12px;
+            }
+            p {
+              font-size: 15px;
+              line-height: 30px;
+              padding-bottom: 9px;
+            }
+            .join-us {
+              font-size: 21px;
+            }
+            .btn-group {
+              .btn {
+                width: 50%;
+                padding: 15px 13px;
+                font-size: 11px;
+              }
+            }
+          }
+          .right{
+            width: 100%;
+            img{
+              width: 435px;
+              height: 435px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*mobile view media queries Ends*/
