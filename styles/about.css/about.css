@@ -790,4 +790,65 @@ footer .container .social-group a img:hover {
 }
 
 /*mobile view media queries Ends*/
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-us-page {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .about-us-page .out-story-sec {
+    margin-bottom: 60px;
+  }
+  .about-us-page .out-story-sec .container {
+    width: 95%;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper {
+    width: 100%;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper .left {
+    width: 100%;
+    max-width: 655px;
+  }
+  .about-us-page .out-story-sec .container .flex-wrapper .right {
+    display: none;
+  }
+  .about-us-page .out-story-sec .container .bottom-sec {
+    margin-top: 95px;
+  }
+  .about-us-page .meet-our-ceo-sec .container {
+    width: 95%;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper {
+    gap: 0 50px;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left h2 {
+    font-size: 46px;
+    padding-bottom: 7px;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left p {
+    font-size: 16px;
+    line-height: 31px;
+    padding-bottom: 2px;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left .join-us {
+    margin-top: 10px;
+    margin-bottom: 28px;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left .btn-group .btn {
+    font-size: 10px;
+    text-align: center;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .left .social {
+    display: none;
+  }
+  .about-us-page .meet-our-ceo-sec .container .flex-wrapper .right img {
+    width: 334px;
+    height: 343px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+/*Tablet View Media Queries Ends*/
 /*# sourceMappingURL=about.css.map */
