@@ -784,8 +784,8 @@ footer .container .social-group a img:hover {
     width: 100%;
   }
   .about-us-page .meet-our-ceo-sec .container .flex-wrapper .right img {
-    width: 435px;
-    height: 435px;
+    width: 100%;
+    height: 365px;
   }
 }
 
